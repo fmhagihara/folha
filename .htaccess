@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /folha
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) public/$1 [L]

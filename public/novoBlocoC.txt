@@ -1,0 +1,92 @@
+<BlocoC>
+    <Desconto>
+      <Valor>1226930</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>18161876</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1870590</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2286465</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>29953875</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>4217259</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2097714</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>8157312</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>24289557</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>55972278</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1403533</Valor>
+      <Historico>Pensão Alimentícia</Historico>
+      <CodigoResumidoConta>75</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>15145253</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>219522</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>112658</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>20018561</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>35800</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>181636</Valor>
+      <Historico>Desconto Cessão Funcion.</Historico>
+      <CodigoResumidoConta>44023</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>260564</Valor>
+      <Historico>Desconto de vale transporte</Historico>
+      <CodigoResumidoConta>44018</CodigoResumidoConta>
+    </Desconto>
+</BlocoC>

@@ -1,0 +1,35 @@
+<?php
+
+namespace App\Models;
+
+use CodeIgniter\Model;
+
+class GrupoVerbaModel extends Model
+{
+    protected $table = 'grupo_verba';
+    protected $primaryKey = 'id';
+
+    protected $useAutoIncrement = true;
+
+    protected $returnType = 'array';
+    protected $useSoftDeletes = true;
+
+    protected $allowedFields = ['tipo', 'historico', 'conta_despesa', 'conta_liquidacao', 'conta_banco'];
+
+
+    protected $dateFormat = 'datetime';
+
+    protected $deletedField = 'deleted_at';
+
+
+    function lista() {
+        $lista = array();
+        $result = $this->findAll();
+        foreach ($result as $row) {
+            $id = $row['id'];
+            $lista[$id] = $row['historico'] . '(' . $row['tipo'] . ')';
+        }
+        return $lista;
+    }
+
+}

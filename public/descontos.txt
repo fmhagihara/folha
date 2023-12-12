@@ -1,0 +1,3187 @@
+<BlocoC>
+    <Desconto>
+      <Valor>5092</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>19855</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2546</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>52363</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>115845</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>79410</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>55250</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>55252</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>49172</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>17822</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>78356</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>7142</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>12730</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>31828</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>43460</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>4315</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2546</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>36906</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>47429</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>110433</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2546</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>7638</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>45575</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>26830</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>3310</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>65616</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>5856</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>3310</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>31907</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2546</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>42446</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>18586</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>11154</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2546</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>31401</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>8996</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>21302</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>10184</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2546</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>18427</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>17020</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>5942</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2546</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>3310</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>5092</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2546</Valor>
+      <Historico>500 - Unimed</Historico>
+      <CodigoResumidoConta>43995</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>103789</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>572731</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>942240</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>261401</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>661339</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>384910</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>35635</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1764766</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1312982</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>624390</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>51960</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>17529</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>388902</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>247517</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>235434</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>127414</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>845912</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>600753</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1298848</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1483207</Valor>
+      <Historico>ADIANTAMENTO DE FÉRIAS</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>3690</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>21100</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>35716</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>194899</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>257741</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>33160</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>81962</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>36882</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>378421</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>59867</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>19327</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>323828</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>52800</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>19604</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>24184</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>90550</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>95688</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>10928</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>117243</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>ASCREA</Historico>
+      <CodigoResumidoConta>2271</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>37261</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>65232</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>226080</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>602985</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>5900</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>231992</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87204</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>419962</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>367264</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>11800</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>47292</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>11800</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>5900</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>159893</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>5900</Valor>
+      <Historico>ASPP</Historico>
+      <CodigoResumidoConta>2272</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1190465</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2469780</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2285474</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1770192</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>762900</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1554162</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>919832</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1448018</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>179950</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>175245</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>236485</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1078209</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1358729</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>795113</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>81288</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1297833</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1767288</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>272561</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>551597</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>687340</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>268873</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>234088</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1088780</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>966488</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100807</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>546652</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>693504</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>720884</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>319216</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>142982</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>215924</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>413025</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1175566</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>771044</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>719642</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>693939</Valor>
+      <Historico>Desconto de Adiantamento</Historico>
+      <CodigoResumidoConta>2254</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>173608</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>312592</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>406998</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>125230</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>189898</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>163477</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>278839</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>410263</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>62338</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>567554</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>739274</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>57780</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>104136</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>158388</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>149645</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>171689</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>60141</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>85409</Valor>
+      <Historico>Empréstimo Caixa</Historico>
+      <CodigoResumidoConta>2277</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>54528</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>197259</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>132584</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>54670</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>273012</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>154860</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>47116</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>27774</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>656215</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>318192</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>38464</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>56800</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>42182</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>44058</Valor>
+      <Historico>Empréstimo CREDCREA</Historico>
+      <CodigoResumidoConta>43991</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>226224</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>253217</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>240319</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>534146</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>150022</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>113333</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>337539</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>291553</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>159688</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>585238</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>335724</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>322409</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>179079</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>548089</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>554156</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>317166</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>314561</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>50314</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>347544</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>169668</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>920384</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>81215</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>185831</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>458252</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>27224</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>103011</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>120180</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>42833</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>188393</Valor>
+      <Historico>Empréstimo Mútua</Historico>
+      <CodigoResumidoConta>2273</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>538415</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>103103</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1209801</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1941744</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1349265</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1330833</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1422278</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1054895</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>523040</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1395814</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>389223</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>131621</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>36141</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>416140</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>578960</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>112492</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>53886</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>42483</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>36508</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>430886</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2143083</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>125443</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>16309</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>20936</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1035989</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>445614</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>31815</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>331364</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>819709</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>20701</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>76696</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>64521</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>581962</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>651612</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>65128</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>215118</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>20701</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>69361</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>830934</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>482139</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>131535</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>33200</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>58164</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>313024</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>595634</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>58209</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>33200</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>341418</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>350780</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>87695</Valor>
+      <Historico>INSS</Historico>
+      <CodigoResumidoConta>2270</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>370563</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>700292</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>182311</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2674601</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>6162810</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>3293173</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>5257636</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>3136374</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2147770</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1671437</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2252178</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>847653</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>122914</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>12335</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1167499</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1322916</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>67291</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>37285</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>12794</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1475484</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>3169902</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>53403</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2482571</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>918185</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>6928</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>104586</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>624263</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>261397</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>228880</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1337487</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>115037</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>75263</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>95756</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>44269</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1369087</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>259916</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1147261</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>55722</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>361588</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>21020</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2021723</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>353744</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1032762</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>65659</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>8658</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>43957</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>706121</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1321309</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>44033</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>8658</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>950544</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>298047</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>417481</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>820111</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>369242</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>916614</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>364471</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>581307</Valor>
+      <Historico>IRRF</Historico>
+      <CodigoResumidoConta>2356</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>145633</Valor>
+      <Historico>Pensão Alimentícia</Historico>
+      <CodigoResumidoConta>75</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>396000</Valor>
+      <Historico>Pensão Alimentícia</Historico>
+      <CodigoResumidoConta>75</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>265138</Valor>
+      <Historico>Pensão Alimentícia</Historico>
+      <CodigoResumidoConta>75</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>68762</Valor>
+      <Historico>Pensão Alimentícia</Historico>
+      <CodigoResumidoConta>75</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>528000</Valor>
+      <Historico>Pensão Alimentícia</Historico>
+      <CodigoResumidoConta>75</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>201551</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>95000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>205000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1397918</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1062000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1023100</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>836800</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>848766</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>580463</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>208000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>426600</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>30000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>126000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>611019</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>25000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>16000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>28000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>15000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>268100</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>841889</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>60000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>27079</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>735465</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>521738</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>16000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>50000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>61000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>67000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>505000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>30242</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>50000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>40000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>620000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>518500</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>60000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>276600</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>20000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>40000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>711223</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>377100</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>111100</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>75000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>443000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>30000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>20000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>212000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>240000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>11000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>170000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>200000</Valor>
+      <Historico>Previdencia Complementar</Historico>
+      <CodigoResumidoConta>3996</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>12500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>15456</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>11787</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>27500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>5000</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>19156</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>11773</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>27020</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>7500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>5000</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>23966</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1773</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>7232</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1910</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2041</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>5000</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2408</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Sindicato</Historico>
+      <CodigoResumidoConta>2275</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>8666</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>4333</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>4333</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>8666</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>4333</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>4333</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>4333</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>8666</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>12999</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>4333</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>4333</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>4333</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>25998</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>4333</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>8666</Valor>
+      <Historico>Sindicato SENGE</Historico>
+      <CodigoResumidoConta>2640</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>219430</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>300387</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>56368</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>793344</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1851488</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1802508</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1106431</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>617795</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>863044</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>457735</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>983854</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>127789</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>200686</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>401254</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>439593</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>32509</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>64964</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>106844</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>655343</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1443703</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>189964</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>64964</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>871868</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>330212</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>69092</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>259689</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>144031</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>540635</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>109409</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>32482</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>162314</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>527009</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>48093</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>653091</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>73074</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>290522</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>62235</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>24981</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>692631</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>220003</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>455069</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>32482</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>92551</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>175899</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>690325</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>24981</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>102218</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>67488</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>74943</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>180824</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>194313</Valor>
+      <Historico>Unimed - Assist médica</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>700</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>200</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1800</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2700</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1700</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1500</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2200</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1700</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>800</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>700</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>200</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>500</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>300</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>500</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>3500</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>200</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1300</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>700</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>400</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1500</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>700</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>300</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>200</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>800</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>300</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>400</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>800</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>400</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>400</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Contribuição plano de saúde ti</Historico>
+      <CodigoResumidoConta>2278</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>700</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>200</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1700</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2700</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1700</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1500</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2200</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1700</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>800</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2500</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>700</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>200</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>500</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>300</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>500</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>3400</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>200</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1300</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>700</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>400</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1500</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>700</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>300</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>200</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1000</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>800</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>300</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>400</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>800</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>400</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>400</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>100</Valor>
+      <Historico>Desc vale refeição</Historico>
+      <CodigoResumidoConta>44034</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>18862</Valor>
+      <Historico>Desconto Cessão Funcion.</Historico>
+      <CodigoResumidoConta>44023</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>162774</Valor>
+      <Historico>Desconto Cessão Funcion.</Historico>
+      <CodigoResumidoConta>44023</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>24101</Valor>
+      <Historico>Desconto de vale transporte</Historico>
+      <CodigoResumidoConta>44018</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>11593</Valor>
+      <Historico>Desconto de vale transporte</Historico>
+      <CodigoResumidoConta>44018</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>11593</Valor>
+      <Historico>Desconto de vale transporte</Historico>
+      <CodigoResumidoConta>44018</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>92093</Valor>
+      <Historico>Desconto de vale transporte</Historico>
+      <CodigoResumidoConta>44018</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>25303</Valor>
+      <Historico>Desconto de vale transporte</Historico>
+      <CodigoResumidoConta>44018</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>69230</Valor>
+      <Historico>Desconto de vale transporte</Historico>
+      <CodigoResumidoConta>44018</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>7561</Valor>
+      <Historico>Desconto de vale transporte</Historico>
+      <CodigoResumidoConta>44018</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>19090</Valor>
+      <Historico>Desconto de vale transporte</Historico>
+      <CodigoResumidoConta>44018</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>232862</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>2178524</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1751133</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>545233</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>993197</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>578187</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>125460</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1968224</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1557850</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>951739</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>157708</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>51043</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>640789</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>537728</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>635774</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>388575</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>860391</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>815802</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1606085</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+    <Desconto>
+      <Valor>1585572</Valor>
+      <Historico>Desconto de Férias</Historico>
+      <CodigoResumidoConta>13</CodigoResumidoConta>
+    </Desconto>
+  </BlocoC>
