@@ -78,7 +78,7 @@ class Importacao extends BaseController
             $lista = array();
             while (!feof($ponteiro)) {
 
-                $registro = array('competencia'=>'2023-08-01', 'arquivo'=>$nomearquivo);
+                $registro = array('competencia'=>'2023-10-01', 'arquivo'=>$nomearquivo);
                 $linha = fgets($ponteiro);
                 if ($linha) {
                     $valoresCampos = explode(';', $linha);
@@ -182,7 +182,8 @@ class Importacao extends BaseController
 
         echo 'Antes: ' . $antesRegistro . '<br>';
         echo 'Depois: ' . $depoisRegistro;
-        str_replace($antesRegistro, $depoisRegistro, $novoconteudo);
+        str_ireplace($antesRegistro, $depoisRegistro, $novoconteudo);
+
 
         sleep(2);
         file_put_contents('modificado.xml', $novoconteudo);
