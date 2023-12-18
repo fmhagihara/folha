@@ -1,6 +1,6 @@
 <?php
 $somadebitos = $somacreditos = 0;
-$somagrupo = $nomegrupo = array();
+$somagrupo = $nomegrupo = $sem_grupo = array();
 $verbadc = array('2010', '2500', '3190');
 ?>
 
@@ -39,6 +39,7 @@ $verbadc = array('2010', '2500', '3190');
         }
         if ($ag['dc'] == 'D') $somadebitos += $ag['soma'];
         else $somacreditos += $ag['soma'];
+        if (!$ag['id_grupo']) $sem_grupo[] = $ag['codigodaverba'] . ' - ' . $ag['nomedaverba'];
         endforeach;?>
     </tbody>
     <tfoot>
@@ -60,3 +61,15 @@ $verbadc = array('2010', '2500', '3190');
     <?php endforeach;?>
 
 <?php endif;?>
+
+<?php
+if ($sem_grupo) {
+    echo '<hr><p>* Verbas sem grupo (e que não serão exportadas no XML):<br>';
+    foreach ($sem_grupo as $sg) {
+        echo $sg . '<br>';
+    }
+}
+?>
+<hr>
+<p><?=anchor('importacao/centro_custo/' . $mes, 'Agrupamento por centro de custo', 'target="_blank"')?></p>
+<p><?=anchor('importacao/gerar_xml/' . $mes, 'Gerar XML para Implanta', 'target="_blank"')?></p>

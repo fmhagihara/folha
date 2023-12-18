@@ -44,14 +44,15 @@ class ImportacaoModel extends Model
     function agruparCentroCusto($mes = '2023-09-01')
     {
         $sql = "SELECT codigodaverba, nomedaverba, dc, count(*) AS 'quantidade', sum(valor) AS 'soma',
-            centrodecusto, grupo_verba.id AS 'id_grupo'
+            centrodecusto, grupo_verba.id AS 'id_grupo', grupo_verba.historico AS 'nome_grupo',
+            grupo_verba.conta_despesa, grupo_verba.conta_liquidacao, grupo_verba.conta_banco, grupo_verba.tipo
         FROM importacao_crua
             LEFT JOIN verba ON importacao_crua.codigodaverba = verba.codigo
             LEFT JOIN grupo_verba ON grupo_verba.id = verba.id_grupo
         WHERE importacao_crua.deleted_at IS null
             AND competencia = '$mes'
         GROUP BY dc, codigodaverba, centrodecusto
-        ORDER BY dc DESC, CAST(codigodaverba AS SIGNED), centrodecusto";
+        ORDER BY dc DESC, tipo, CAST(codigodaverba AS SIGNED), centrodecusto";
 
         $result = $this->db->query($sql);
         return $result->getResultArray();

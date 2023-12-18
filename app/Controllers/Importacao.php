@@ -110,9 +110,126 @@ class Importacao extends BaseController
         if ($mes) {
             $model = new ImportacaoModel();
             $agrupado = $model->agrupar($mes);
-            //var_dump($agrupado);
             $body_data['agrupado'] = $agrupado;
+            $body_data['mes'] = $mes;
             return view('importacao/listar_agrupado', $body_data);
+
+        }
+    }
+
+
+    function centro_custo($mes=null) {
+        if ($mes) {
+            $model = new ImportacaoModel();
+            $agrupado = $model->agruparCentroCusto($mes);
+            echo '<pre>';
+            /*
+            foreach ($agrupado as $ag) {
+                if ($ag['tipo']) {
+                    echo $ag['tipo'] . ' - ' . '<br>';
+                }
+            }
+            */
+            var_dump($agrupado);
+            $body_data['agrupado'] = $agrupado;
+           // return view('importacao/listar_agrupado', $body_data);
+
+        }
+    }
+
+
+    function gerar_xml($mes=null) {
+        if ($mes) {
+            $model = new ImportacaoModel();
+            $agrupado = $model->agruparCentroCusto($mes);
+            $mesano = substr($mes, 5, 2) . substr($mes, 0, 4);
+            $datacredito = date('tmY', strtotime($mes));
+            $datahorageracao = date('dmYHi');
+            $xml = '<Implanta>' . PHP_EOL .
+            '  <Header NumeroLote="177" MesAno="' . $mesano . '" DataCreditoContabil="' . $datacredito .
+            '" DataHoraGeracao="' . $datahorageracao . '" CNPJ="76639384000159" UF="PR" Versao="1.0" TipoArquivo="FolhaPagamento" SistemaOrigem="BENNER" SistemaDestino="SISCONT.NET" />' . PHP_EOL;
+
+            $tipoAnterior = 'llll';
+            $codVerbaAnterior = 0;
+
+            $valorDesconto = array();
+            $histDesconto = array();
+            $contaDesconto = array();
+            $qtdeBlocos = $qtdeRegistros = 0;
+
+            foreach ($agrupado as $ag) {
+                $centrodecustof = substr($ag['centrodecusto'], 0, 1) . '.' . substr($ag['centrodecusto'], 1, 2) . '.' . substr($ag['centrodecusto'], 3);
+
+
+                if ($ag['tipo'] && $tipoAnterior && $ag['tipo'] != $tipoAnterior) {
+                    if ($tipoAnterior === 'A - Despesa') $xml .= '  </BlocoA>' . PHP_EOL;
+                    if ($tipoAnterior === 'C - Desconto') $xml .= '  </BlocoC>' . PHP_EOL;
+                    if ($tipoAnterior === 'F - Estorno') $xml .= '  </BlocoF>' . PHP_EOL;
+                    if ($ag['tipo'] === 'A - Despesa') $xml .= '  <BlocoA>' . PHP_EOL;
+                    if ($ag['tipo'] === 'C - Desconto') $xml .= '  <BlocoC>' . PHP_EOL;
+                    if ($ag['tipo'] === 'F - Estorno') $xml .= '  <BlocoF>' . PHP_EOL;
+                    $qtdeBlocos++;
+                }
+
+                if ($ag['tipo'] === 'A - Despesa') {
+
+                    $xml .= '    <Despesa>' . PHP_EOL;
+                    $xml .= '      <Valor>' . number_format($ag['soma'], 2, '', '') . '</Valor>' . PHP_EOL;
+                    $xml .= '      <Historico>' . $ag['nomedaverba'] . '</Historico>' . PHP_EOL;
+                    $xml .= '      <CodigoConta>' . $ag['conta_despesa'] . '</CodigoConta>' . PHP_EOL;
+                    $xml .= '      <CodigoCentroCusto>' . $centrodecustof . '</CodigoCentroCusto>' . PHP_EOL;
+                    $xml .= '    </Despesa>' . PHP_EOL;
+
+                    $qtdeRegistros++;
+                }
+                if ($ag['tipo'] === 'C - Desconto') {
+                    $cv = $ag['id_grupo'];
+                    if (!isset($valorDesconto[$cv])) $valorDesconto[$cv] = $histDesconto[$cv]= $contaDesconto[$cv] = 0;
+                    $valorDesconto[$cv] += $ag['soma'];
+                    $histDesconto[$cv] = $ag['nome_grupo'];
+                    $contaDesconto[$cv] = $ag['conta_banco'];
+                }
+
+                if (($tipoAnterior === 'C - Desconto') && ($ag['tipo'] != 'C - Desconto') && !empty($valorDesconto)) {
+                    $qtdeRegistros += count($valorDesconto);
+
+                    foreach ($valorDesconto as $key=>$value) {
+                        $xml .= '    <Desconto>' . PHP_EOL;
+                        $xml .= '      <Valor>' . number_format($value, 2, '', '') . '</Valor>' . PHP_EOL;
+                        $xml .= '      <Historico>' . $histDesconto[$key] . '</Historico>' . PHP_EOL;
+                        $xml .= '      <CodigoConta>' . $contaDesconto[$key] . '</CodigoConta>' . PHP_EOL;
+                        $xml .= '    </Desconto>' . PHP_EOL;
+                    }
+                    $valorDesconto = [];
+
+                }
+
+
+                if ($ag['tipo'] === 'F - Estorno') {
+                    $xml .= '    <Estorno>' . PHP_EOL;
+                    $xml .= '      <Valor>' . number_format($ag['soma'], 2, '', '') . '</Valor>' . PHP_EOL;
+                    $xml .= '      <Historico>' . $ag['nomedaverba'] . '</Historico>' . PHP_EOL;
+                    $xml .= '      <DataEstorno>' . $datacredito . '</DataEstorno>' . PHP_EOL;
+                    $xml .= '      <CodigoContaDespesa>' . $ag['conta_despesa'] . '</CodigoContaDespesa>' . PHP_EOL;
+                    $xml .= '      <CodigoContaFinanceira>' . $ag['conta_banco'] . '</CodigoContaFinanceira>' . PHP_EOL;
+                    $xml .= '      <CodigoCentroCusto>' . $centrodecustof . '</CodigoCentroCusto>' . PHP_EOL;
+                    $xml .= '    </Estorno>' . PHP_EOL;
+                    $qtdeRegistros++;
+                }
+
+
+                $tipoAnterior = $ag['tipo'];
+            }
+            if ($tipoAnterior === 'A - Despesa') $xml .= '  </BlocoA>' . PHP_EOL;
+            if ($tipoAnterior === 'F - Estorno') $xml .= '  </BlocoF>' . PHP_EOL;
+
+
+
+            $xml .= '  <Trailer QuantidadeBlocos="' . $qtdeBlocos . '" QuantidadeTotalRegistros="' . $qtdeRegistros . '" />' . PHP_EOL .
+            '</Implanta>';
+
+
+            echo '<textarea cols="300" rows="50">' . $xml . '</textarea>';
 
         }
     }
