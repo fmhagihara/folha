@@ -121,15 +121,15 @@ class Importacao extends BaseController
         if ($mes) {
             $model = new ImportacaoModel();
             $agrupado = $model->agruparCentroCusto($mes);
-            echo '<pre>';
-            /*
+           // echo '<pre>';
+
             foreach ($agrupado as $ag) {
                 if ($ag['tipo']) {
-                    echo $ag['tipo'] . ' - ' . '<br>';
+                    echo $ag['codigodaverba'] . ' - ' . $ag['tipo'] . ' - ' . $ag['centrodecusto'] . ' - ' . $ag['soma'] . ' - ' . $ag['nome_grupo'] . '<br>';
                 }
             }
-            */
-            var_dump($agrupado);
+
+            //var_dump($agrupado);
             // $body_data['agrupado'] = $agrupado;
             // return view('importacao/listar_agrupado', $body_data);
 
@@ -164,20 +164,28 @@ class Importacao extends BaseController
 
             $xml_BlocoA = $xml_BlocoC = $xml_BlocoF = '';
 
+            $jafoi_BlocoA = array();
 
             foreach ($agrupado as $ag) {
                 $centrodecustof = substr($ag['centrodecusto'], 0, 1) . '.' . substr($ag['centrodecusto'], 1, 3) . '.' . substr($ag['centrodecusto'], 4, 2);
 
                 if ($ag['tipo'] === 'A - Despesa') {
 
-                    $xml_BlocoA .= '    <Despesa>' . PHP_EOL;
-                    $xml_BlocoA .= '      <Valor>' . number_format($ag['soma'], 2, '', '') . '</Valor>' . PHP_EOL;
-                    $xml_BlocoA .= '      <Historico>' . $ag['nomedaverba'] . '</Historico>' . PHP_EOL;
-                    $xml_BlocoA .= '      <CodigoConta>' . $ag['conta_despesa'] . '</CodigoConta>' . PHP_EOL;
-                    $xml_BlocoA .= '      <CodigoCentroCusto>' . $centrodecustof . '</CodigoCentroCusto>' . PHP_EOL;
-                    $xml_BlocoA .= '    </Despesa>' . PHP_EOL;
+                    // Como tem verbas "repetidas", ignora os repetidos
+                    $verbaccusto = $ag['codigodaverba'] . '-' . $ag['centrodecusto'];
+                    if (!in_array($verbaccusto, $jafoi_BlocoA)) {
 
-                    $qtdeRegistros++;
+                        $xml_BlocoA .= '    <Despesa>' . PHP_EOL;
+                        $xml_BlocoA .= '      <Valor>' . number_format($ag['soma'], 2, '', '') . '</Valor>' . PHP_EOL;
+                        $xml_BlocoA .= '      <Historico>' . $ag['nomedaverba'] . '</Historico>' . PHP_EOL;
+                        $xml_BlocoA .= '      <CodigoConta>' . $ag['conta_despesa'] . '</CodigoConta>' . PHP_EOL;
+                        $xml_BlocoA .= '      <CodigoCentroCusto>' . $centrodecustof . '</CodigoCentroCusto>' . PHP_EOL;
+                        $xml_BlocoA .= '    </Despesa>' . PHP_EOL;
+
+                        $qtdeRegistros++;
+
+                        $jafoi_BlocoA[] = $verbaccusto;
+                    }
                 }
                 if ($ag['tipo'] === 'C - Desconto') {
                     $cv = $ag['id_grupo'];
@@ -245,6 +253,7 @@ class Importacao extends BaseController
             fwrite($file, $xml);
             fclose($file);
 
+
             // Define os cabeçalhos para forçar o download do arquivo
             header('Content-Description: File Transfer');
             header('Content-Type: application/octet-stream');
@@ -259,6 +268,8 @@ class Importacao extends BaseController
 
             // Remove o arquivo temporário após o download
             unlink($caminho_arquivo);
+
+
         }
     }
 
