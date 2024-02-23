@@ -121,18 +121,18 @@ class Importacao extends BaseController
         if ($mes) {
             $model = new ImportacaoModel();
             $agrupado = $model->agruparCentroCusto($mes);
-           // echo '<pre>';
+            // echo '<pre>';
 
+            /*
             foreach ($agrupado as $ag) {
                 if ($ag['tipo']) {
                     echo $ag['codigodaverba'] . ' - ' . $ag['tipo'] . ' - ' . $ag['centrodecusto'] . ' - ' . $ag['soma'] . ' - ' . $ag['nome_grupo'] . '<br>';
                 }
             }
-
+*/
             //var_dump($agrupado);
-            // $body_data['agrupado'] = $agrupado;
-            // return view('importacao/listar_agrupado', $body_data);
-
+            $body_data['agrupado'] = $agrupado;
+            return view('importacao/listar_centro_custo', $body_data);
         }
     }
 
@@ -154,7 +154,7 @@ class Importacao extends BaseController
             // Header do XML
             $xml = '<Implanta>' . PHP_EOL .
                 '  <Header NumeroLote="177" MesAno="' . $mesano . '" DataCreditoContabil="' . $datacredito .
-                '" DataHoraGeracao="' . $datahorageracao . '" CNPJ="76639384000159" UF="PR" Versao="1.0" TipoArquivo="FolhaPagamento" SistemaOrigem="BENNER" SistemaDestino="SISCONT.NET" />' . PHP_EOL;
+                '" DataHoraGeracao="' . $datahorageracao . '" CNPJ="76639384000159" UF="PR" Versao="1.0" TipoArquivo="FolhaPagamento" SistemaOrigem="BENNER_FolhaFMH" SistemaDestino="SISCONT.NET" />' . PHP_EOL;
 
             // Variáveis para o miolo do XML
             $valorDesconto = array();
@@ -167,45 +167,47 @@ class Importacao extends BaseController
             $jafoi_BlocoA = array();
 
             foreach ($agrupado as $ag) {
-                $centrodecustof = substr($ag['centrodecusto'], 0, 1) . '.' . substr($ag['centrodecusto'], 1, 3) . '.' . substr($ag['centrodecusto'], 4, 2);
+                if ($ag['exportar_xml']) {
+                    $centrodecustof = substr($ag['centrodecusto'], 0, 1) . '.' . substr($ag['centrodecusto'], 1, 3) . '.' . substr($ag['centrodecusto'], 4, 2);
 
-                if ($ag['tipo'] === 'A - Despesa') {
+                    if ($ag['tipo'] === 'A - Despesa') {
 
-                    // Como tem verbas "repetidas", ignora os repetidos
-                    $verbaccusto = $ag['codigodaverba'] . '-' . $ag['centrodecusto'];
-                    if (!in_array($verbaccusto, $jafoi_BlocoA)) {
+                        // Como tem verbas "repetidas", ignora os repetidos
+                        $verbaccusto = $ag['codigodaverba'] . '-' . $ag['centrodecusto'];
+                        if (!in_array($verbaccusto, $jafoi_BlocoA)) {
 
-                        $xml_BlocoA .= '    <Despesa>' . PHP_EOL;
-                        $xml_BlocoA .= '      <Valor>' . number_format($ag['soma'], 2, '', '') . '</Valor>' . PHP_EOL;
-                        $xml_BlocoA .= '      <Historico>' . $ag['nomedaverba'] . '</Historico>' . PHP_EOL;
-                        $xml_BlocoA .= '      <CodigoConta>' . $ag['conta_despesa'] . '</CodigoConta>' . PHP_EOL;
-                        $xml_BlocoA .= '      <CodigoCentroCusto>' . $centrodecustof . '</CodigoCentroCusto>' . PHP_EOL;
-                        $xml_BlocoA .= '    </Despesa>' . PHP_EOL;
+                            $xml_BlocoA .= '    <Despesa>' . PHP_EOL;
+                            $xml_BlocoA .= '      <Valor>' . number_format($ag['soma'], 2, '', '') . '</Valor>' . PHP_EOL;
+                            $xml_BlocoA .= '      <Historico>' . $ag['nomedaverba'] . '</Historico>' . PHP_EOL;
+                            $xml_BlocoA .= '      <CodigoConta>' . $ag['conta_despesa'] . '</CodigoConta>' . PHP_EOL;
+                            $xml_BlocoA .= '      <CodigoCentroCusto>' . $centrodecustof . '</CodigoCentroCusto>' . PHP_EOL;
+                            $xml_BlocoA .= '    </Despesa>' . PHP_EOL;
 
-                        $qtdeRegistros++;
+                            $qtdeRegistros++;
 
-                        $jafoi_BlocoA[] = $verbaccusto;
+                            $jafoi_BlocoA[] = $verbaccusto;
+                        }
                     }
-                }
-                if ($ag['tipo'] === 'C - Desconto') {
-                    $cv = $ag['id_grupo'];
-                    if (!isset($valorDesconto[$cv])) $valorDesconto[$cv] = $histDesconto[$cv] = $contaDesconto[$cv] = 0;
-                    $valorDesconto[$cv] += $ag['soma'];
-                    $histDesconto[$cv] = $ag['nome_grupo'];
-                    $contaDesconto[$cv] = $ag['conta_banco'];
-                }
+                    if ($ag['tipo'] === 'C - Desconto') {
+                        $cv = $ag['id_grupo'];
+                        if (!isset($valorDesconto[$cv])) $valorDesconto[$cv] = $histDesconto[$cv] = $contaDesconto[$cv] = 0;
+                        $valorDesconto[$cv] += $ag['soma'];
+                        $histDesconto[$cv] = $ag['nome_grupo'];
+                        $contaDesconto[$cv] = $ag['conta_banco'];
+                    }
 
 
-                if ($ag['tipo'] === 'F - Estorno') {
-                    $xml_BlocoF .= '    <Estorno>' . PHP_EOL;
-                    $xml_BlocoF .= '      <Valor>' . number_format($ag['soma'], 2, '', '') . '</Valor>' . PHP_EOL;
-                    $xml_BlocoF .= '      <Historico>' . $ag['nomedaverba'] . '</Historico>' . PHP_EOL;
-                    $xml_BlocoF .= '      <DataEstorno>' . $datacredito . '</DataEstorno>' . PHP_EOL;
-                    $xml_BlocoF .= '      <CodigoContaDespesa>' . $ag['conta_despesa'] . '</CodigoContaDespesa>' . PHP_EOL;
-                    $xml_BlocoF .= '      <CodigoContaFinanceira>' . $ag['conta_banco'] . '</CodigoContaFinanceira>' . PHP_EOL;
-                    $xml_BlocoF .= '      <CodigoCentroCusto>' . $centrodecustof . '</CodigoCentroCusto>' . PHP_EOL;
-                    $xml_BlocoF .= '    </Estorno>' . PHP_EOL;
-                    $qtdeRegistros++;
+                    if ($ag['tipo'] === 'F - Estorno') {
+                        $xml_BlocoF .= '    <Estorno>' . PHP_EOL;
+                        $xml_BlocoF .= '      <Valor>' . number_format($ag['soma'], 2, '', '') . '</Valor>' . PHP_EOL;
+                        $xml_BlocoF .= '      <Historico>' . $ag['nomedaverba'] . '</Historico>' . PHP_EOL;
+                        $xml_BlocoF .= '      <DataEstorno>' . $datacredito . '</DataEstorno>' . PHP_EOL;
+                        $xml_BlocoF .= '      <CodigoContaDespesa>' . $ag['conta_despesa'] . '</CodigoContaDespesa>' . PHP_EOL;
+                        $xml_BlocoF .= '      <CodigoContaFinanceira>' . $ag['conta_banco'] . '</CodigoContaFinanceira>' . PHP_EOL;
+                        $xml_BlocoF .= '      <CodigoCentroCusto>' . $centrodecustof . '</CodigoCentroCusto>' . PHP_EOL;
+                        $xml_BlocoF .= '    </Estorno>' . PHP_EOL;
+                        $qtdeRegistros++;
+                    }
                 }
             }
 
@@ -268,8 +270,6 @@ class Importacao extends BaseController
 
             // Remove o arquivo temporário após o download
             unlink($caminho_arquivo);
-
-
         }
     }
 
@@ -344,6 +344,17 @@ class Importacao extends BaseController
         sleep(2);
         file_put_contents('modificado.xml', $novoconteudo);
     }
+
+    function grupoCcusto($mes = '2024-01-01')
+    {
+        // Dados do BD
+        $model = new ImportacaoModel();
+        $agrupado = $model->grupoCentroCusto($mes);
+
+        $body_data['agrupado'] = $agrupado;
+        return view('importacao/grupo_centro_custo', $body_data);
+    }
+
 
     function array_to_xml($data, &$xml_data)
     {

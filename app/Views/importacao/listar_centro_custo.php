@@ -10,11 +10,12 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190','3191');
             <th>Código Verba</th>
             <th>Nome Verba</th>
             <th>D/C</th>
-            <th>Qtde</th>
+            <th>Centro de custos</th>
             <th>Soma</th>
-            <th>ID grupo</th>
+            <th>Conta despesa</th>
             <th>Nome Grupo</th>
             <th>Tipo Grupo</th>
+
         </tr>
     </thead>
     <tbody>
@@ -23,13 +24,12 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190','3191');
             <td><?=$ag['codigodaverba']?></td>
             <td><?=$ag['nomedaverba']?></td>
             <td><?=$ag['dc']?></td>
-            <td><?=$ag['quantidade']?></td>
+            <td><?=$ag['centrodecusto']?></td>
             <td style="text-align: right"><?=number_format($ag['soma'], 2, ',', '.')?></td>
-            <td><?=$ag['id_grupo'];?>
-             <?php if (!$ag['exportar_xml']) echo '*'?></td>
+            <td><?=$ag['conta_despesa']?></td>
             <td><?=$ag['nome_grupo']?></td>
-            <td><?=$ag['tipo_grupo']?></td>
-        <tr>
+            <td><?=$ag['tipo']?></td>
+        </tr>
         <?php
         if (is_numeric($ag['id_grupo']) && ($ag['dc'] == 'D' || !in_array($ag['codigodaverba'], $verbadc))) {
             if (!isset($somagrupo[$ag['id_grupo']])) {
@@ -55,22 +55,3 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190','3191');
     </tfoot>
 
 </table>
-<?php if ($somagrupo) :?>
-    <p>Totais por grupos:</p>
-    <?php foreach ($nomegrupo as $id=>$nome) :?>
-    <h3><?=$nome?> : <?=number_format($somagrupo[$id], 2, ',', '.')?></h3>
-    <?php endforeach;?>
-
-<?php endif;?>
-
-<?php
-if ($sem_grupo) {
-    echo '<hr><p>* Verbas sem grupo (e que não serão exportadas no XML):<br>';
-    foreach ($sem_grupo as $sg) {
-        echo $sg . '<br>';
-    }
-}
-?>
-<hr>
-<p><?=anchor('importacao/centro_custo/' . $mes, 'Agrupamento por centro de custo', 'target="_blank"')?></p>
-<p><?=anchor('importacao/gerar_xml/' . $mes, 'Gerar XML para Implanta', 'target="_blank"')?></p>
