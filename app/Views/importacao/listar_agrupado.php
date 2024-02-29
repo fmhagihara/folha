@@ -29,7 +29,7 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190','3191');
              <?php if (!$ag['exportar_xml']) echo '*'?></td>
             <td><?=$ag['nome_grupo']?></td>
             <td><?=$ag['tipo_grupo']?></td>
-        <tr>
+        </tr>
         <?php
         if (is_numeric($ag['id_grupo']) && ($ag['dc'] == 'D' || !in_array($ag['codigodaverba'], $verbadc))) {
             if (!isset($somagrupo[$ag['id_grupo']])) {

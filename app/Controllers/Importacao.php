@@ -162,7 +162,7 @@ class Importacao extends BaseController
             $contaDesconto = array();
             $qtdeBlocos = $qtdeRegistros = 0;
 
-            $xml_BlocoA = $xml_BlocoC = $xml_BlocoF = '';
+            $xml_BlocoA = $xml_BlocoB = $xml_BlocoC = $xml_BlocoF = '';
 
             $jafoi_BlocoA = array();
 
@@ -188,6 +188,16 @@ class Importacao extends BaseController
                             $jafoi_BlocoA[] = $verbaccusto;
                         }
                     }
+
+                    if ($ag['tipo'] === 'B - Beneficio') {
+                        $xml_BlocoB .= '    <Beneficio>' . PHP_EOL;
+                        $xml_BlocoB .= '      <Valor>' . number_format($ag['soma'], 2, '', '') . '</Valor>' . PHP_EOL;
+                        $xml_BlocoB .= '      <Historico>' . $ag['nomedaverba'] . '</Historico>' . PHP_EOL;
+                        $xml_BlocoB .= '      <CodigoConta>' . $ag['conta_liquidacao'] . '</CodigoConta>' . PHP_EOL;
+                        $xml_BlocoB .= '    </Beneficio>' . PHP_EOL;
+                        $qtdeRegistros++;
+                    }
+
                     if ($ag['tipo'] === 'C - Desconto') {
                         $cv = $ag['id_grupo'];
                         if (!isset($valorDesconto[$cv])) $valorDesconto[$cv] = $histDesconto[$cv] = $contaDesconto[$cv] = 0;
@@ -195,7 +205,6 @@ class Importacao extends BaseController
                         $histDesconto[$cv] = $ag['nome_grupo'];
                         $contaDesconto[$cv] = $ag['conta_banco'];
                     }
-
 
                     if ($ag['tipo'] === 'F - Estorno') {
                         $xml_BlocoF .= '    <Estorno>' . PHP_EOL;
@@ -229,6 +238,11 @@ class Importacao extends BaseController
             if ($xml_BlocoA) {
                 $qtdeBlocos++;
                 $xml .= '  <BlocoA>' . PHP_EOL . $xml_BlocoA . '  </BlocoA>' . PHP_EOL;
+            }
+
+            if ($xml_BlocoB) {
+                $qtdeBlocos++;
+                $xml .= '  <BlocoB>' . PHP_EOL . $xml_BlocoB . '  </BlocoB>' . PHP_EOL;
             }
 
             if ($xml_BlocoC) {
