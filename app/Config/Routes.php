@@ -19,3 +19,4 @@ $routes->get('/importacao/gerar_xml/(:segment)', 'Importacao::gerar_xml/$1');
 $routes->get('/lista/agrupado', 'Lista::agrupado');
 $routes->get('/lista/agrupado/(:segment)', 'Lista::agrupado/$1');
 $routes->get('/lista', 'Lista::index');
+$routes->get('/lista/centro_custo/(:segment)', 'Lista::centro_custo/$1');

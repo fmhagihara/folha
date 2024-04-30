@@ -18,4 +18,4 @@ foreach ($competencias as $key=>$value) {
 echo '</ul>';
 
 
-echo anchor('', 'Importação - início');
+echo anchor(base_url(), 'Importação - início');
