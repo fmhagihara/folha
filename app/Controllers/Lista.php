@@ -44,4 +44,16 @@ class Lista extends BaseController
             return view('lista/centro_custo', $body_data);
         }
     }
+
+
+
+    function grupoCcusto($mes = '2024-01-01')
+    {
+        // Dados do BD
+        $model = new ImportacaoModel();
+        $agrupado = $model->grupoCentroCusto($mes);
+
+        $body_data['agrupado'] = $agrupado;
+        return view('importacao/grupo_centro_custo', $body_data);
+    }
 }
