@@ -98,7 +98,8 @@ class Importacao extends BaseController
                     if ($inserido) $reg_inseridos++;
                 }
             }
-            echo "Lista: $tam_lista itens. Registros: $reg_inseridos inseridos.";
+            echo "Lista: $tam_lista itens. Registros: $reg_inseridos inseridos.<br>";
+            echo anchor('lista/agrupado/' . $competencia, 'Agrupado');
         } else {
             echo 'Formato n&atilde;o permitido';
         }

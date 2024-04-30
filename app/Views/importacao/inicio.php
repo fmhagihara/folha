@@ -1,5 +1,6 @@
 <?php
 $competencias = array(
+    '2024-03-01' => '03/2024',
     '2024-02-01' => '02/2024',
     '2024-01-01' => '01/2024',
 //    '2023-12-01' => '12/2023',
@@ -15,7 +16,15 @@ $competencias = array(
 //    '2023-02-01' => '02/2023',
 //    '2023-01-01' => '01/2023'
 );
+$competencias = array();
+
+for ($i = 0; $i < 6; $i++) {
+    $data = date('Y-m-01', strtotime("-$i months"));
+    $mes_ano = date('m/Y', strtotime("-$i months"));
+    $competencias[$data] = $mes_ano;
+}
 //echo form_open_multipart('importacao/processar');
+echo '<h3>Importação da folha - início</h3>';
 echo form_open_multipart('importacao/dat_analitico');
 //echo form_open_multipart('importacao/agrupar_descontos');
 echo form_label('Arquivo:', 'arquivo');
@@ -28,5 +37,7 @@ echo form_submit('','Processar');
 
 echo form_close();
 
+echo '<br>';
+echo anchor('lista', 'Listas');
 
 ?>

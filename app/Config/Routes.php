@@ -15,3 +15,7 @@ $routes->get('/importacao/listar_agrupado/(:segment)', 'Importacao::listar_agrup
 $routes->get('/importacao/centro_custo/(:segment)', 'Importacao::centro_custo/$1');
 $routes->get('/importacao/grupoCcusto/(:segment)', 'Importacao::grupoCcusto/$1');
 $routes->get('/importacao/gerar_xml/(:segment)', 'Importacao::gerar_xml/$1');
+
+$routes->get('/lista/agrupado', 'Lista::agrupado');
+$routes->get('/lista/agrupado/(:segment)', 'Lista::agrupado/$1');
+$routes->get('/lista', 'Lista::index');
