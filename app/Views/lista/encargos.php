@@ -4,7 +4,7 @@ $soma_fgts = $soma_inss = $soma_pis = 0;
 $ind_fgts = $ind_inss = $ind_pis = 999;
 $maior_fgts = $maior_inss = $maior_pis = 0;
 $verbadc = array('2010', '2015', '2041', '2500', '3190','3191');
-var_dump($encargos);
+//var_dump($encargos);
 
 foreach ($agrupado as $ag) {
     // FGTS 
@@ -86,7 +86,7 @@ foreach ($cc_pis as $key=>$value) {
 }
 
 ?>
-<p>FGTS</p>
+<p>FGTS - empenho 28/2024</p>
 <table border="1">
     <thead>
         <tr>
@@ -121,7 +121,7 @@ foreach ($cc_pis as $key=>$value) {
     </tfoot>
 </table><br>
 
-<p>INSS</p>
+<p>INSS - Empenho 29/2024</p>
 <table border="1">
     <thead>
         <tr>
@@ -156,7 +156,7 @@ foreach ($cc_pis as $key=>$value) {
     </tfoot>
 </table><br>
 
-<p>PIS</p>
+<p>PIS - Empenho 27/2024</p>
 <table border="1">
     <thead>
         <tr>
