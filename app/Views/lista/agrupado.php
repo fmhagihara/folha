@@ -88,4 +88,5 @@ if ($sem_grupo) {
 ?>
 <hr>
 <p><?=anchor('lista/centro_custo/' . $mes, 'Lista agrupada por centro de custo', 'target="_blank"')?></p>
+<p><?=anchor('lista/encargos/' . $mes, 'Lista de encargos', 'target="_blank"')?></p>
 <p><?=anchor('exportacao/gerar_xml/' . $mes, 'Gerar XML para Implanta', 'target="_blank"')?></p>

@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\EncargoModel;
 use App\Models\ImportacaoModel;
 
 class Lista extends BaseController
@@ -55,5 +56,31 @@ class Lista extends BaseController
 
         $body_data['agrupado'] = $agrupado;
         return view('importacao/grupo_centro_custo', $body_data);
+    }
+    
+
+
+    function encargos($mes = null)
+    {
+        if ($mes) {
+            $model = new ImportacaoModel();
+            $agrupado = $model->agruparCentroCusto($mes);
+
+            $emodel = new EncargoModel();
+            $encargos = $emodel->where('competencia', $mes)->first();
+           /* echo '<pre>';
+
+            
+            foreach ($agrupado as $ag) {
+                if ($ag['tipo']) {
+                    echo $ag['codigodaverba'] . ' - ' . $ag['tipo'] . ' - ' . $ag['centrodecusto'] . ' - ' . $ag['soma'] . ' - ' . $ag['nome_grupo'] . '<br>';
+                }
+            }
+*/
+            //var_dump($agrupado);
+            $body_data['agrupado'] = $agrupado;
+            $body_data['encargos'] = $encargos;
+            return view('lista/encargos', $body_data);
+        }
     }
 }

@@ -20,3 +20,4 @@ $routes->get('/lista/agrupado/(:segment)', 'Lista::agrupado/$1');
 $routes->get('/lista', 'Lista::index');
 $routes->get('/lista/centro_custo/(:segment)', 'Lista::centro_custo/$1');
 $routes->get('/lista/grupoCcusto/(:segment)', 'Lista::grupoCcusto/$1');
+$routes->get('/lista/encargos/(:segment)', 'Lista::encargos/$1');
