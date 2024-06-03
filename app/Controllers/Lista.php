@@ -31,16 +31,6 @@ class Lista extends BaseController
         if ($mes) {
             $model = new ImportacaoModel();
             $agrupado = $model->agruparCentroCusto($mes);
-            // echo '<pre>';
-
-            /*
-            foreach ($agrupado as $ag) {
-                if ($ag['tipo']) {
-                    echo $ag['codigodaverba'] . ' - ' . $ag['tipo'] . ' - ' . $ag['centrodecusto'] . ' - ' . $ag['soma'] . ' - ' . $ag['nome_grupo'] . '<br>';
-                }
-            }
-*/
-            //var_dump($agrupado);
             $body_data['agrupado'] = $agrupado;
             return view('lista/centro_custo', $body_data);
         }
@@ -57,7 +47,7 @@ class Lista extends BaseController
         $body_data['agrupado'] = $agrupado;
         return view('importacao/grupo_centro_custo', $body_data);
     }
-    
+
 
 
     function encargos($mes = null)
@@ -68,19 +58,42 @@ class Lista extends BaseController
 
             $emodel = new EncargoModel();
             $encargos = $emodel->where('competencia', $mes)->first();
-           /* echo '<pre>';
 
-            
-            foreach ($agrupado as $ag) {
-                if ($ag['tipo']) {
-                    echo $ag['codigodaverba'] . ' - ' . $ag['tipo'] . ' - ' . $ag['centrodecusto'] . ' - ' . $ag['soma'] . ' - ' . $ag['nome_grupo'] . '<br>';
-                }
-            }
-*/
-            //var_dump($agrupado);
+            if (!$encargos) return  redirect()->to('encargos/cadastrar/'.$mes);
+            $body_data['mes']      = $mes;
             $body_data['agrupado'] = $agrupado;
             $body_data['encargos'] = $encargos;
             return view('lista/encargos', $body_data);
         }
+    }
+
+
+    function cadastrarEncargos($mes = null)
+    {
+        $model = new ImportacaoModel();
+        $agrupado = $model->agrupar($mes);
+        $emodel = new EncargoModel();
+        $encargos = $emodel->where('competencia', $mes)->first();
+        $body_data['mes'] = $mes;
+        $body_data['agrupado'] = $agrupado;
+        $body_data['encargos'] = $encargos;
+        return view('cadastro/encargos', $body_data);
+    }
+
+
+    function adicionarEncargos()
+    {
+        $dados = $this->request->getPost();
+        //var_dump($dados);
+        $emodel = new EncargoModel();
+        $encargos = $emodel->where('competencia', $dados['mes'])->first();
+        if ($encargos) {
+            $emodel->where('competencia', $dados['mes'])->set($dados['novo'])->update();
+        }
+        else {
+            $dados['novo']['competencia'] = $dados['mes'];
+            $emodel->insert($dados['novo']);
+        }
+        return redirect()->to('lista/encargos/' . $dados['mes']);
     }
 }

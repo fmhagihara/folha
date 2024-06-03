@@ -7,7 +7,7 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190','3191');
 //var_dump($encargos);
 
 foreach ($agrupado as $ag) {
-    // FGTS 
+    // FGTS
     if ($ag['dc'] == 'D' && in_array($ag['codigodaverba'], ['2010','2015'])) {
         if (!isset($cc_fgts[$ag['centrodecusto']])) $cc_fgts[$ag['centrodecusto']] = 0;
         $cc_fgts[$ag['centrodecusto']] += $ag['soma'];
@@ -16,9 +16,12 @@ foreach ($agrupado as $ag) {
             $maior_fgts = $ag['soma'];
             $ind_fgts = $ag['centrodecusto'];
         }
-    }    
+        if ($ag['codigodaverba'] == '2015') {
+            if ($ind_fgts == $ag['centrodecusto']) $maior_fgts += $ag['soma'];
+        }
+    }
 
-    // INSS 
+    // INSS
     if ($ag['dc'] == 'D' && in_array($ag['codigodaverba'], ['2500'])) {
         if (!isset($cc_inss[$ag['centrodecusto']])) $cc_inss[$ag['centrodecusto']] = 0;
         $cc_inss[$ag['centrodecusto']] += $ag['soma'];
@@ -29,7 +32,7 @@ foreach ($agrupado as $ag) {
         }
     }
 
-    // PIS 
+    // PIS
     if ($ag['dc'] == 'D' && in_array($ag['codigodaverba'], ['3190'])) {
         if (!isset($cc_pis[$ag['centrodecusto']])) $cc_pis[$ag['centrodecusto']] = 0;
         $cc_pis[$ag['centrodecusto']] += $ag['soma'];
@@ -55,7 +58,7 @@ if ($dif_inss) {
     $cc_inss[$ind_inss] = $maior_inss -= $dif_inss;
 }
 else $ind_inss = 999;
- 
+
 $dif_pis = round($soma_pis - $encargos['pis'], 2);
 if ($dif_pis) {
     $codgrupo = substr($ind_pis, 0, 4);
@@ -93,13 +96,13 @@ foreach ($cc_pis as $key=>$value) {
             <th>Centro de custos</th>
             <th>Valor (Pgto)</th>
             <th>Grupo</th>
-            <th>Soma (Liq)</th>      
+            <th>Soma (Liq)</th>
         </tr>
     </thead>
     <tbody>
-        <?php 
+        <?php
         $grupoant = '';
-        foreach ($cc_fgts as $key=>$value) : 
+        foreach ($cc_fgts as $key=>$value) :
         $grupo = substr($key, 0, 4);
         ?>
         <tr bgcolor="<?=($key == $ind_fgts) ? 'yellow' : 'white'?>">
@@ -128,13 +131,13 @@ foreach ($cc_pis as $key=>$value) {
             <th>Centro de custos</th>
             <th>Valor (Pgto)</th>
             <th>Grupo</th>
-            <th>Soma (Liq)</th>      
+            <th>Soma (Liq)</th>
         </tr>
     </thead>
     <tbody>
-        <?php 
+        <?php
         $grupoant = '';
-        foreach ($cc_inss as $key=>$value) : 
+        foreach ($cc_inss as $key=>$value) :
         $grupo = substr($key, 0, 4);
         ?>
         <tr bgcolor="<?=($key == $ind_inss) ? 'yellow' : 'white'?>">
@@ -163,13 +166,13 @@ foreach ($cc_pis as $key=>$value) {
             <th>Centro de custos</th>
             <th>Valor (Pgto)</th>
             <th>Grupo</th>
-            <th>Soma (Liq)</th>      
+            <th>Soma (Liq)</th>
         </tr>
     </thead>
     <tbody>
-        <?php 
+        <?php
         $grupoant = '';
-        foreach ($cc_pis as $key=>$value) : 
+        foreach ($cc_pis as $key=>$value) :
         $grupo = substr($key, 0, 4);
         ?>
         <tr bgcolor="<?=($key == $ind_pis) ? 'yellow' : 'white'?>">
@@ -190,3 +193,4 @@ foreach ($cc_pis as $key=>$value) {
         </tr>
     </tfoot>
 </table><br>
+<a href="<?=base_url()?>encargos/cadastrar/<?=$mes?>">Cadastrar/alterar valores</a>
