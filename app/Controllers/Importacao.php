@@ -106,9 +106,15 @@ class Importacao extends BaseController
     }
 
 
+    function excluir_lancamentos($mes = NULL)
+    {
 
+        $model = new ImportacaoModel();
+        $model->where('competencia', $mes)->delete();
 
+        return redirect()->to('lista/agrupado/' . $mes);
 
+    }
 
 
     function array_to_xml($data, &$xml_data)

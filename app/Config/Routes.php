@@ -10,7 +10,7 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Importacao::index');
 $routes->post('/importacao/processar', 'Importacao::processar');
 $routes->post('/importacao/dat_analitico', 'Importacao::dat_analitico');
-
+$routes->get('/importacao/excluir_lancamentos/(:segment)', 'Importacao::excluir_lancamentos/$1');
 
 
 $routes->get('/exportacao/gerar_xml/(:segment)', 'Exportacao::gerar_xml/$1');
