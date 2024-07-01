@@ -38,6 +38,7 @@ echo form_submit('','Processar');
 echo form_close();
 
 echo '<br>';
-echo anchor('lista', 'Listas');
+echo anchor('lista', 'Listas') . '<br>';
+echo anchor('grupos', 'Grupos de contabilização');
 
 ?>
