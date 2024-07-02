@@ -100,4 +100,30 @@ class Lista extends BaseController
         }
         return redirect()->to('lista/encargos/' . $dados['mes']);
     }
+
+
+    function verba_mes($verba=null, $mes=null, $dc=null)
+    {
+        $model = new ImportacaoModel();
+        $valores = $model->where('tipodefolha', 'Folha Normal')
+                    ->where('codigodaverba', $verba)
+                    ->where('competencia', $mes)
+                    ->where('dc', $dc)
+                    ->orderBy('nome')
+                    ->findAll();
+        $body_data['valores'] = $valores;
+        return view('lista/verba_mes', $body_data);
+    }
+
+
+    function contracheque($matricula=null, $mes=null) {
+        $model = new ImportacaoModel();
+        $valores = $model->where('tipodefolha', 'Folha Normal')
+                    ->where('matricula', $matricula)
+                    ->where('competencia', $mes)
+                    ->orderBy('dc', 'DESC')
+                    ->findAll();;
+        $body_data['valores'] = $valores;
+        return view('lista/contracheque', $body_data);
+    }
 }

@@ -20,9 +20,8 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
     </thead>
     <tbody>
         <?php foreach ($agrupado as $ag) : ?>
-
             <tr>
-                <td><?= $ag['codigodaverba'] ?></td>
+                <td><?= anchor('verba_mes/' . $ag['codigodaverba'] . '/' . $ag['competencia'] . '/' . $ag['dc'], $ag['codigodaverba'], 'target="_blank"') ?></td>
                 <td><?= $ag['nomedaverba'] ?></td>
                 <td><?= $ag['dc'] ?></td>
                 <td><?= $ag['quantidade'] ?></td>
@@ -36,12 +35,15 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
                     ]);
                     echo '</td><td>' . $ag['nome_grupo'] . '</td><td>' . $ag['tipo_grupo'] . '</td>';
                 }
-                else {
+                elseif ($ag['codigodaverba'] != '2002') {
                     echo '<td></td>';
                     echo form_open('vincular', '', ['novo[codigo]'=>$ag['codigodaverba'], 'mes'=>$ag['competencia']]);
                     echo '<td>' . form_dropdown('novo[id_grupo]', $grupos) . '</td>';
                     echo '<td>' . form_submit('', 'Vincular') . '</td>';
                     echo form_close();
+                }
+                else {
+                    echo '<td></td><td>VALOR LÍQUIDO NÃO SERÁ IMPORTADO</td><td></td>';
                 }
 
                 ?>
