@@ -15,7 +15,7 @@ class Grupo extends BaseController
         if ($id) $editar = $model->find($id);
         else {
             $editar = [
-                'id' => null,
+                'id' => '',
                 'tipo'=>'A - Despesa',
                 'historico'=> '',
                 'conta_despesa'=> '',
@@ -30,5 +30,21 @@ class Grupo extends BaseController
     }
 
 
+    function cadastrar() 
+    {
+        $dados = $this->request->getPost();
+        if ($dados) {
+            $model = new GrupoVerbaModel();
+            $model->save($dados);
+        }
+        return redirect()->to('grupos');
+    }
+
+    function excluir($id=null)
+    {
+        $model = new GrupoVerbaModel();
+        if ($id) $model->delete($id);
+        return redirect()->to('grupos');
+    }
 
 }

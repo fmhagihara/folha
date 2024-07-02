@@ -32,7 +32,7 @@ $tipos = [
         </tr>
     </thead>
     <tbody>
-        <?=form_open('grupos/cadastrar', '', ['id'=>$editar['id']])?>
+        <?=form_open('cadastrar_grupo', '', ['id'=>$editar['id']])?>
         <tr>
             <td><?=form_dropdown('tipo', $tipos, $editar['tipo'])?></td>
             <td><?=form_input('historico', $editar['historico'], 'size="50"')?></td>

@@ -26,3 +26,5 @@ $routes->post('/encargos/adicionar', 'Lista::adicionarEncargos');
 
 $routes->get('/grupos', 'Grupo::index');
 $routes->get('/grupos/(:segment)', 'Grupo::index/$1');
+$routes->post('/cadastrar_grupo', 'Grupo::cadastrar');
+$routes->get('/excluir_grupo/(:segment)', 'Grupo::excluir/$1');
