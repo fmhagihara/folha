@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\GrupoVerbaModel;
+use App\Models\VerbaModel;
 
 class Grupo extends BaseController
 {
@@ -30,7 +31,7 @@ class Grupo extends BaseController
     }
 
 
-    function cadastrar() 
+    function cadastrar()
     {
         $dados = $this->request->getPost();
         if ($dados) {
@@ -47,9 +48,18 @@ class Grupo extends BaseController
             $verbasGrupo = $model->verbasGrupo($id);
             if (empty($verbasGrupo)) $model->delete($id);
             else echo 'tem verbas';
-            
+
         }
         return redirect()->to('grupos');
+    }
+
+    function vincular()
+    {
+        $dados = $this->request->getPost();
+        $model = new VerbaModel();
+        $model->save($dados['novo']);
+        return redirect()->to('lista/agrupado/' . $dados['mes']);
+
     }
 
 }

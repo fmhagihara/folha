@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\EncargoModel;
+use App\Models\GrupoVerbaModel;
 use App\Models\ImportacaoModel;
 
 class Lista extends BaseController
@@ -19,7 +20,10 @@ class Lista extends BaseController
         if ($mes) {
             $model = new ImportacaoModel();
             $agrupado = $model->agrupar($mes);
+            $gmodel = new GrupoVerbaModel();
+            $grupos = $gmodel->lista();
             $body_data['agrupado'] = $agrupado;
+            $body_data['grupos'] = $grupos;
             $body_data['mes'] = $mes;
             return view('lista/agrupado', $body_data);
         }

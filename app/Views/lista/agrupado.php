@@ -27,10 +27,24 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
                 <td><?= $ag['dc'] ?></td>
                 <td><?= $ag['quantidade'] ?></td>
                 <td style="text-align: right"><?= number_format($ag['soma'], 2, ',', '.') ?></td>
-                <td><?=isset($ag['id_grupo']) ? $ag['id_grupo'] . ' ' . anchor('desvincular/' . $ag['id_verba_grupo'], '[D]') : ' '?>
-                    <?php if (!$ag['exportar_xml']) echo '*' ?></td>
-                <td><?= $ag['nome_grupo'] ?></td>
-                <td><?= $ag['tipo_grupo'] ?></td>
+                <?php
+                if (isset($ag['id_grupo'])) {
+                    echo '<td>';
+                    echo $ag['id_grupo'] . ' ' . anchor('desvincular/' . $ag['id_verba_grupo'], '[D]',[
+                        'onclick' => "return confirm(`Confirma desvinculação do grupo '" . $ag['nome_grupo'] .
+                        "' da verba '" . $ag['codigodaverba'] . " - " . $ag['nomedaverba'] . "'?`)"
+                    ]);
+                    echo '</td><td>' . $ag['nome_grupo'] . '</td><td>' . $ag['tipo_grupo'] . '</td>';
+                }
+                else {
+                    echo '<td></td>';
+                    echo form_open('vincular', '', ['novo[codigo]'=>$ag['codigodaverba'], 'mes'=>$ag['competencia']]);
+                    echo '<td>' . form_dropdown('novo[id_grupo]', $grupos) . '</td>';
+                    echo '<td>' . form_submit('', 'Vincular') . '</td>';
+                    echo form_close();
+                }
+
+                ?>
             </tr>
         <?php
             if (is_numeric($ag['id_grupo']) && ($ag['dc'] == 'D' || !in_array($ag['codigodaverba'], $verbadc))) {

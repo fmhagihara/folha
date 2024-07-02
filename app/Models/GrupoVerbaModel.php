@@ -24,7 +24,7 @@ class GrupoVerbaModel extends Model
 
     function lista() {
         $lista = array();
-        $result = $this->findAll();
+        $result = $this->orderBy('tipo')->findAll();
         foreach ($result as $row) {
             $id = $row['id'];
             $lista[$id] = $row['historico'] . '(' . $row['tipo'] . ')';
@@ -34,7 +34,7 @@ class GrupoVerbaModel extends Model
 
     function verbasGrupo($idGrupo) {
         $lista = array();
-        
+
         $result = $this->from('verba')->where('id_grupo', $idGrupo)->findAll();
         foreach ($result as $row) {
             $id = $row['id'];
