@@ -30,7 +30,7 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
                 <?php
                 if (isset($ag['id_grupo'])) {
                     echo '<td>';
-                    echo $ag['id_grupo'] . ' ' . anchor('desvincular/' . $ag['id_verba_grupo'], '[D]',[
+                    echo $ag['id_grupo'] . ' ' . anchor('desvincular/' . $ag['id_verba_grupo'] . '/' . $ag['competencia'], '[D]',[
                         'onclick' => "return confirm(`Confirma desvinculação do grupo '" . $ag['nome_grupo'] .
                         "' da verba '" . $ag['codigodaverba'] . " - " . $ag['nomedaverba'] . "'?`)"
                     ]);

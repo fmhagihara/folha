@@ -29,4 +29,5 @@ $routes->get('/grupos/(:segment)', 'Grupo::index/$1');
 $routes->post('/cadastrar_grupo', 'Grupo::cadastrar');
 $routes->get('/excluir_grupo/(:segment)', 'Grupo::excluir/$1');
 $routes->get('/desvincular/(:segment)', 'Grupo::desvincular/$1');
+$routes->get('/desvincular/(:segment)/(:segment)', 'Grupo::desvincular/$1/$2');
 $routes->post('/vincular', 'Grupo::vincular');

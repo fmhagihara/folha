@@ -59,7 +59,15 @@ class Grupo extends BaseController
         $model = new VerbaModel();
         $model->save($dados['novo']);
         return redirect()->to('lista/agrupado/' . $dados['mes']);
+    }
 
+    function desvincular($id=null, $mes=null)
+    {
+
+        $model = new VerbaModel();
+        $model->delete($id);
+        if ($mes) return redirect()->to('lista/agrupado/' . $mes);
+        return redirect()->to('lista');
     }
 
 }
