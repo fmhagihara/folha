@@ -27,7 +27,7 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
                 <td><?= $ag['dc'] ?></td>
                 <td><?= $ag['quantidade'] ?></td>
                 <td style="text-align: right"><?= number_format($ag['soma'], 2, ',', '.') ?></td>
-                <td><?= $ag['id_grupo']; ?>
+                <td><?=isset($ag['id_grupo']) ? $ag['id_grupo'] . ' ' . anchor('desvincular/' . $ag['id_verba_grupo'], '[D]') : ' '?>
                     <?php if (!$ag['exportar_xml']) echo '*' ?></td>
                 <td><?= $ag['nome_grupo'] ?></td>
                 <td><?= $ag['tipo_grupo'] ?></td>

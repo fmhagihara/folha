@@ -60,11 +60,11 @@ class ImportacaoModel extends Model
         return $result->getResultArray();
     }
 
-    function agrupar($mes = '2023-09-01')
+    function    agrupar($mes = '2023-09-01')
     {
         $sql = "SELECT codigodaverba, nomedaverba, dc, count(*) AS 'quantidade', sum(valor) AS 'soma',
             grupo_verba.historico AS 'nome_grupo', grupo_verba.tipo AS 'tipo_grupo', grupo_verba.id AS 'id_grupo',
-            grupo_verba.exportar_xml
+            grupo_verba.exportar_xml, verba.id AS id_verba_grupo
         FROM importacao_crua
             LEFT JOIN verba ON importacao_crua.codigodaverba = verba.codigo
             LEFT JOIN grupo_verba ON grupo_verba.id = verba.id_grupo

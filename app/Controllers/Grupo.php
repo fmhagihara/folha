@@ -43,7 +43,12 @@ class Grupo extends BaseController
     function excluir($id=null)
     {
         $model = new GrupoVerbaModel();
-        if ($id) $model->delete($id);
+        if ($id) {
+            $verbasGrupo = $model->verbasGrupo($id);
+            if (empty($verbasGrupo)) $model->delete($id);
+            else echo 'tem verbas';
+            
+        }
         return redirect()->to('grupos');
     }
 

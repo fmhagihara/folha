@@ -32,4 +32,14 @@ class GrupoVerbaModel extends Model
         return $lista;
     }
 
+    function verbasGrupo($idGrupo) {
+        $lista = array();
+        
+        $result = $this->from('verba')->where('id_grupo', $idGrupo)->findAll();
+        foreach ($result as $row) {
+            $id = $row['id'];
+            $lista[$id] = $row['codigo'];
+        }
+        return $lista;
+    }
 }
