@@ -5,7 +5,7 @@ $somagrupo = $nomegrupo = $sem_grupo = array();
 $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
 ?>
 
-<table class="table table-striped table-hover table-bordered">
+<table class="table table-bordered table-hover table-striped">
     <thead>
         <tr class="table table-success">
             <th>Código Verba</th>
@@ -21,7 +21,8 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
     <tbody>
         <?php foreach ($agrupado as $ag) : ?>
             <tr>
-                <td><?= anchor('verba_mes/' . $ag['codigodaverba'] . '/' . $ag['competencia'] . '/' . $ag['dc'], $ag['codigodaverba'], 'target="_blank" class="btn btn-sm btn-primary"') ?></td>
+                <td><?= anchor('verba_mes/' . $ag['codigodaverba'] . '/' . $ag['competencia'] . '/' .
+                $ag['dc'], $ag['codigodaverba'], 'target="_blank" class="btn btn-sm btn-primary" title="Listar"') ?></td>
                 <td><?= $ag['nomedaverba'] ?></td>
                 <td class="text-center"><?= $ag['dc'] ?></td>
                 <td><?= $ag['quantidade'] ?></td>
@@ -32,14 +33,15 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
                     echo $ag['id_grupo'] . ' ' . anchor('desvincular/' . $ag['id_verba_grupo'] . '/' . $ag['competencia'], 'D', [
                         'onclick' => "return confirm(`Confirma desvinculação do grupo '" . $ag['nome_grupo'] .
                             "' da verba '" . $ag['codigodaverba'] . " - " . $ag['nomedaverba'] . "'?`)",
-                        'class' => 'btn btn-sm btn-danger'
+                        'class' => 'btn btn-sm btn-danger',
+                        'title' => 'Desvincular'
                     ]);
                     echo '</td><td>' . $ag['nome_grupo'] . '</td><td>' . $ag['tipo_grupo'] . '</td>';
                 } elseif ($ag['codigodaverba'] != '2002') {
                     echo '<td></td>';
                     echo form_open('vincular', '', ['novo[codigo]' => $ag['codigodaverba'], 'mes' => $ag['competencia']]);
                     echo '<td>' . form_dropdown('novo[id_grupo]', $grupos, '', 'class="form-select"') . '</td>';
-                    echo '<td>' . form_submit('', 'Vincular', 'class="btn btn-success"') . '</td>';
+                    echo '<td>' . form_submit('', 'Vincular', 'class="btn btn-success btn-sm"') . '</td>';
                     echo form_close();
                 } else {
                     echo '<td></td><td>VALOR LÍQUIDO NÃO SERÁ IMPORTADO</td><td></td>';

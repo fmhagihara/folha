@@ -27,7 +27,9 @@ class Grupo extends BaseController
         }
         $body_data['editar'] = $editar;
 
-        return view('grupo/inicio', $body_data);
+        return view('_common/cabecalho')
+            . view('grupo/inicio', $body_data)
+            . view('_common/rodape');
     }
 
 
