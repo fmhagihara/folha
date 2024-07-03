@@ -5,9 +5,9 @@ $somagrupo = $nomegrupo = $sem_grupo = array();
 $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
 ?>
 
-<table border="1">
+<table class="table table-striped table-hover table-bordered">
     <thead>
-        <tr>
+        <tr class="table table-success">
             <th>Código Verba</th>
             <th>Nome Verba</th>
             <th>D/C</th>
@@ -21,28 +21,27 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
     <tbody>
         <?php foreach ($agrupado as $ag) : ?>
             <tr>
-                <td><?= anchor('verba_mes/' . $ag['codigodaverba'] . '/' . $ag['competencia'] . '/' . $ag['dc'], $ag['codigodaverba'], 'target="_blank"') ?></td>
+                <td><?= anchor('verba_mes/' . $ag['codigodaverba'] . '/' . $ag['competencia'] . '/' . $ag['dc'], $ag['codigodaverba'], 'target="_blank" class="btn btn-sm btn-primary"') ?></td>
                 <td><?= $ag['nomedaverba'] ?></td>
-                <td><?= $ag['dc'] ?></td>
+                <td class="text-center"><?= $ag['dc'] ?></td>
                 <td><?= $ag['quantidade'] ?></td>
-                <td style="text-align: right"><?= number_format($ag['soma'], 2, ',', '.') ?></td>
+                <td class="text-end"><?= number_format($ag['soma'], 2, ',', '.') ?></td>
                 <?php
                 if (isset($ag['id_grupo'])) {
                     echo '<td>';
-                    echo $ag['id_grupo'] . ' ' . anchor('desvincular/' . $ag['id_verba_grupo'] . '/' . $ag['competencia'], '[D]',[
+                    echo $ag['id_grupo'] . ' ' . anchor('desvincular/' . $ag['id_verba_grupo'] . '/' . $ag['competencia'], 'D', [
                         'onclick' => "return confirm(`Confirma desvinculação do grupo '" . $ag['nome_grupo'] .
-                        "' da verba '" . $ag['codigodaverba'] . " - " . $ag['nomedaverba'] . "'?`)"
+                            "' da verba '" . $ag['codigodaverba'] . " - " . $ag['nomedaverba'] . "'?`)",
+                        'class' => 'btn btn-sm btn-danger'
                     ]);
                     echo '</td><td>' . $ag['nome_grupo'] . '</td><td>' . $ag['tipo_grupo'] . '</td>';
-                }
-                elseif ($ag['codigodaverba'] != '2002') {
+                } elseif ($ag['codigodaverba'] != '2002') {
                     echo '<td></td>';
-                    echo form_open('vincular', '', ['novo[codigo]'=>$ag['codigodaverba'], 'mes'=>$ag['competencia']]);
-                    echo '<td>' . form_dropdown('novo[id_grupo]', $grupos) . '</td>';
-                    echo '<td>' . form_submit('', 'Vincular') . '</td>';
+                    echo form_open('vincular', '', ['novo[codigo]' => $ag['codigodaverba'], 'mes' => $ag['competencia']]);
+                    echo '<td>' . form_dropdown('novo[id_grupo]', $grupos, '', 'class="form-select"') . '</td>';
+                    echo '<td>' . form_submit('', 'Vincular', 'class="btn btn-success"') . '</td>';
                     echo form_close();
-                }
-                else {
+                } else {
                     echo '<td></td><td>VALOR LÍQUIDO NÃO SERÁ IMPORTADO</td><td></td>';
                 }
 
@@ -64,7 +63,7 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
             if (!$ag['id_grupo']) $sem_grupo[] = $ag['codigodaverba'] . ' - ' . $ag['nomedaverba'];
         endforeach; ?>
     </tbody>
-    <tfoot>
+    <tfoot class="table-primary">
         <tr>
             <td colspan="4">Soma débitos</td>
             <td style="text-align: right"><?= number_format($somadebitos, 2, ',', '.') ?></td>
@@ -87,10 +86,25 @@ $verbadc = array('2010', '2015', '2041', '2500', '3190', '3191');
 
 </table>
 <?php if ($somagrupo) : ?>
-    <p>Totais por grupos:</p>
-    <?php foreach ($nomegrupo as $id => $nome) : ?>
-        <h3><?= $nome ?> : <?= number_format($somagrupo[$id], 2, ',', '.') ?></h3>
-    <?php endforeach; ?>
+    <h4>Totais por grupo de contabilização:</h4>
+    <div class="col col-6">
+        <table class="table table-bordered table-hover table-sm">
+            <thead class="table table-info">
+                <tr>
+                    <th>Nome do grupo</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($nomegrupo as $id => $nome) : ?>
+                    <tr>
+                        <td><?= $nome ?></td>
+                        <td class="text-end"><?= number_format($somagrupo[$id], 2, ',', '.') ?></td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    </div>
 
 <?php endif; ?>
 
@@ -115,4 +129,4 @@ if ($sem_grupo) {
     <p><?= anchor('exportacao/gerar_xml/' . $mes, 'Gerar XML para Implanta', 'target="_blank"') ?></p>
 <?php else : echo '<p>Sem lançamentos no mês. </p>';
 endif; ?>
-<?=anchor('lista', 'Tela de Listas')?>
+<?= anchor('lista', 'Tela de Listas') ?>

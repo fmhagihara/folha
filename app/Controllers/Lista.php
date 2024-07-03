@@ -11,7 +11,9 @@ class Lista extends BaseController
 
     public function index(): string
     {
-        return view('lista/inicio');
+        return view('_common/cabecalho')
+            . view('lista/inicio')
+            . view('_common/rodape');
     }
 
 
@@ -25,7 +27,9 @@ class Lista extends BaseController
             $body_data['agrupado'] = $agrupado;
             $body_data['grupos'] = $grupos;
             $body_data['mes'] = $mes;
-            return view('lista/agrupado', $body_data);
+            return view('_common/cabecalho')
+                . view('lista/agrupado', $body_data)
+                . view('_common/rodape');;
         }
         return redirect()->to('lista');
     }
@@ -112,7 +116,9 @@ class Lista extends BaseController
                     ->orderBy('nome')
                     ->findAll();
         $body_data['valores'] = $valores;
-        return view('lista/verba_mes', $body_data);
+        return view('_common/cabecalho')
+            . view('lista/verba_mes', $body_data)
+            . view('_common/rodape');
     }
 
 

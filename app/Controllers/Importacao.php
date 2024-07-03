@@ -10,8 +10,10 @@ class Importacao extends BaseController
 {
     public function index(): string
     {
-
-        return view('importacao/inicio');
+        $head_data['subtitle'] = 'início';
+        return view('_common/cabecalho', $head_data)
+                .view('importacao/inicio')
+                .view('_common/rodape');;
     }
 
     function processar()

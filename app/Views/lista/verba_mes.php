@@ -1,7 +1,8 @@
 <?php $soma = 0; $ord = 1?>
 <h3><?=$valores[0]['codigodaverba'] . ' ' . $valores[0]['nomedaverba'] . ' - ' . substr($valores[0]['competencia'], 5, 2) . '/' . substr($valores[0]['competencia'], 0, 4)?></h3>
-<table border="1">
-    <thead>
+<div class="col col-8">
+<table class="table table-bordered table-hover table-striped table-sm">
+    <thead class="table table-primary">
         <tr>
             <th>Ord</th>
             <th>Funcionário</th>
@@ -13,11 +14,11 @@
     <tbody>
         <?php foreach ($valores as $v) : ?>
             <tr>
-                <td align="center"><?=$ord?>
+                <td class="text-center"><?=$ord?>
                 <td><?=anchor('contracheque/' . $v['matricula'] . '/' . $v['competencia'], $v['nome'], 'target="_blank"') ?></td>
-                <td align="center"><?= $v['matricula'] ?></td>
+                <td class="text-center"><?= $v['matricula'] ?></td>
                 <td><?=$v['centrodecusto']?></td>
-                <td align="right"><?= number_format($v['valor'], 2, ',', '.') ?></td>
+                <td class="text-end"><?= number_format($v['valor'], 2, ',', '.') ?></td>
             </tr>
         <?php
             $ord++;
@@ -26,8 +27,9 @@
     </tbody>
     <tfoot>
         <tr>
-            <td colspan="4" align="right">TOTAL</td>
-            <td align="right"><?=number_format($soma, 2, ',', '.')?></td>
+            <td colspan="4" class="text-end">TOTAL</td>
+            <td class="text-end"><?=number_format($soma, 2, ',', '.')?></td>
         </tr>
     </tfoot>
 </table>
+</div>
