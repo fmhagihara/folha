@@ -63,11 +63,13 @@ class Importacao extends BaseController
         $competencia = $this->request->getPost('competencia');
 
         $model = new ImportacaoModel();
+        $dadosmes = $model->where('competencia', $competencia)->countAllResults();
+        if ($dadosmes) return ('Já tem lançamentos em ' . $competencia);
         $extensao = substr($nomearquivo, -3);
         if (strtolower($extensao) == 'dat') {
             $conteudo = iconv("ISO-8859-1", "UTF-8", file_get_contents($arquivo));
             $conteudo = str_replace('"', '', $conteudo);
-            $nomearquivo = date('YmdHis') . '_importabenner.csv';
+            $nomearquivo = 'importacao/' . date('YmdHis') . '_importabenner.csv';
             file_put_contents($nomearquivo, $conteudo);
             sleep(2);
             $ponteiro = fopen($nomearquivo, 'r');
