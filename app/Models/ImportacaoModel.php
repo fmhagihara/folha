@@ -41,8 +41,10 @@ class ImportacaoModel extends Model
 
     }
 
-    function agruparCentroCusto($mes = '2023-09-01')
+    function agruparCentroCusto($mes = '2023-09-01', $todasFolhas=false)
     {
+        if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s", "Rescisão"';
+        else $tipoFolha = '"Folha Normal"';
         $sql = "SELECT codigodaverba, nomedaverba, dc, count(*) AS 'quantidade', sum(valor) AS 'soma',
             centrodecusto, grupo_verba.id AS 'id_grupo', grupo_verba.historico AS 'nome_grupo',
             grupo_verba.conta_despesa, grupo_verba.conta_liquidacao, grupo_verba.conta_banco,
@@ -52,7 +54,7 @@ class ImportacaoModel extends Model
             LEFT JOIN grupo_verba ON grupo_verba.id = verba.id_grupo
         WHERE importacao_crua.deleted_at IS null
             AND competencia = '$mes'
-            AND importacao_crua.tipodefolha = 'Folha Normal'
+            AND importacao_crua.tipodefolha IN ($tipoFolha)
         GROUP BY dc, codigodaverba, centrodecusto
         ORDER BY dc DESC, tipo, CAST(codigodaverba AS SIGNED), centrodecusto";
 
