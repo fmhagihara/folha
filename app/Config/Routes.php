@@ -33,3 +33,7 @@ $routes->get('/excluir_grupo/(:segment)', 'Grupo::excluir/$1');
 $routes->get('/desvincular/(:segment)', 'Grupo::desvincular/$1');
 $routes->get('/desvincular/(:segment)/(:segment)', 'Grupo::desvincular/$1/$2');
 $routes->post('/vincular', 'Grupo::vincular');
+
+$routes->get('/login', 'LoginController::index');
+$routes->get('/login/usuario_invalido', 'LoginController::index/51');
+$routes->get('/login/senha_invalida', 'LoginController::index/52');

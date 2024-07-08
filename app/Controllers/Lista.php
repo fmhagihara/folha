@@ -79,7 +79,7 @@ class Lista extends BaseController
     function cadastrarEncargos($mes = null)
     {
         $model = new ImportacaoModel();
-        $agrupado = $model->agrupar($mes);
+        $agrupado = $model->agrupar($mes, true);
         $emodel = new EncargoModel();
         $encargos = $emodel->where('competencia', $mes)->first();
         $body_data['mes'] = $mes;
@@ -128,8 +128,11 @@ class Lista extends BaseController
                     ->where('matricula', $matricula)
                     ->where('competencia', $mes)
                     ->orderBy('dc', 'DESC')
+                    ->orderBy('codigodaverba')
                     ->findAll();;
         $body_data['valores'] = $valores;
-        return view('lista/contracheque', $body_data);
+        return view('_common/cabecalho')
+            . view('lista/contracheque', $body_data)
+            . view('_common/rodape');
     }
 }
