@@ -43,7 +43,7 @@ class ImportacaoModel extends Model
 
     function agruparCentroCusto($mes = '2023-09-01', $todasFolhas=false)
     {
-        if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s", "Rescisão"';
+        if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s"';
         else $tipoFolha = '"Folha Normal"';
         $sql = "SELECT codigodaverba, nomedaverba, dc, count(*) AS 'quantidade', sum(valor) AS 'soma',
             centrodecusto, grupo_verba.id AS 'id_grupo', grupo_verba.historico AS 'nome_grupo',
@@ -64,7 +64,7 @@ class ImportacaoModel extends Model
 
     function agrupar($mes = '2023-09-01', $todasFolhas=false)
     {
-        if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s", "Rescisão"';
+        if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s"';
         else $tipoFolha = '"Folha Normal"';
         $sql = "SELECT competencia, codigodaverba, nomedaverba, dc, count(*) AS 'quantidade', sum(valor) AS 'soma',
             grupo_verba.historico AS 'nome_grupo', grupo_verba.tipo AS 'tipo_grupo', grupo_verba.exportar_xml,
