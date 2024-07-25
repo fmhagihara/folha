@@ -7,9 +7,16 @@ use App\Models\VerbaModel;
 
 class Grupo extends BaseController
 {
+    protected $session;
 
-    public function index($id=NULL): string
+    public function __construct()
     {
+        $this->session = session();
+    }
+
+    public function index($id=NULL)
+    {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $model = new GrupoVerbaModel();
         $grupos = $model->orderBy('tipo')->findAll();
         $body_data['grupos'] = $grupos;
@@ -35,6 +42,7 @@ class Grupo extends BaseController
 
     function cadastrar()
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $dados = $this->request->getPost();
         if ($dados) {
             $model = new GrupoVerbaModel();
@@ -45,6 +53,7 @@ class Grupo extends BaseController
 
     function excluir($id=null)
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $model = new GrupoVerbaModel();
         if ($id) {
             $verbasGrupo = $model->verbasGrupo($id);
@@ -57,6 +66,7 @@ class Grupo extends BaseController
 
     function vincular()
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $dados = $this->request->getPost();
         $model = new VerbaModel();
         $model->save($dados['novo']);
@@ -65,7 +75,7 @@ class Grupo extends BaseController
 
     function desvincular($id=null, $mes=null)
     {
-
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $model = new VerbaModel();
         $model->delete($id);
         if ($mes) return redirect()->to('lista/agrupado/' . $mes);

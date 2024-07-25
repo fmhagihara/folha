@@ -6,9 +6,17 @@ use App\Models\ImportacaoModel;
 
 class Exportacao extends BaseController
 {
+    protected $session;
+
+    public function __construct()
+    {
+        $this->session = session();
+    }
+
 
     function gerar_xml($mes = null)
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         if ($mes) {
 
             // Dados do BD

@@ -8,16 +8,30 @@ use SimpleXMLElement;
 
 class Importacao extends BaseController
 {
-    public function index(): string
+    protected $session;
+
+    public function __construct()
     {
+        $this->session = session();
+    }
+
+    public function index()
+    {
+
+        if (!$this->session->get('usuario')) return redirect()->to('login');
+        $usuario = $this->session->get('usuario');
+        $body_data['usuario'] = $usuario['nome'];
         $head_data['subtitle'] = 'início';
         return view('_common/cabecalho', $head_data)
-                .view('importacao/inicio')
-                .view('_common/rodape');;
+            . view('importacao/inicio', $body_data)
+            . view('_common/rodape');
+
+
     }
 
     function processar()
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $arquivo = $_FILES['arquivo']['tmp_name'];
 
         // Carrega o arquivo XLSX
@@ -57,6 +71,7 @@ class Importacao extends BaseController
 
     function dat_analitico()
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $arquivo = $_FILES['arquivo']['tmp_name'];
         $nomearquivo = $_FILES['arquivo']['name'];
 
@@ -112,16 +127,15 @@ class Importacao extends BaseController
 
     function excluir_lancamentos($mes = NULL)
     {
-
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $model = new ImportacaoModel();
         $model->where('competencia', $mes)->delete();
 
         return redirect()->to('lista/agrupado/' . $mes);
-
     }
 
 
-    function array_to_xml($data, &$xml_data)
+    private function array_to_xml($data, &$xml_data)
     {
         foreach ($data as $key => $value) {
             if (is_array($value)) {

@@ -8,9 +8,17 @@ use App\Models\ImportacaoModel;
 
 class Lista extends BaseController
 {
+    protected $session;
 
-    public function index(): string
+    public function __construct()
     {
+        $this->session = session();
+    }
+
+
+    public function index()
+    {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         return view('_common/cabecalho')
             . view('lista/inicio')
             . view('_common/rodape');
@@ -19,6 +27,7 @@ class Lista extends BaseController
 
     function agrupado($mes=null)
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         if ($mes) {
             $model = new ImportacaoModel();
             $agrupado = $model->agrupar($mes);
@@ -36,6 +45,7 @@ class Lista extends BaseController
 
     function centro_custo($mes = null)
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         if ($mes) {
             $model = new ImportacaoModel();
             $agrupado = $model->agruparCentroCusto($mes);
@@ -48,6 +58,7 @@ class Lista extends BaseController
 
     function grupoCcusto($mes = '2024-01-01')
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         // Dados do BD
         $model = new ImportacaoModel();
         $agrupado = $model->grupoCentroCusto($mes);
@@ -60,6 +71,7 @@ class Lista extends BaseController
 
     function encargos($mes = null)
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         if ($mes) {
             $model = new ImportacaoModel();
             $agrupado = $model->agruparCentroCusto($mes);
@@ -78,6 +90,7 @@ class Lista extends BaseController
 
     function cadastrarEncargos($mes = null)
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $model = new ImportacaoModel();
         $agrupado = $model->agrupar($mes, true);
         $emodel = new EncargoModel();
@@ -91,6 +104,7 @@ class Lista extends BaseController
 
     function adicionarEncargos()
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $dados = $this->request->getPost();
         //var_dump($dados);
         $emodel = new EncargoModel();
@@ -108,6 +122,7 @@ class Lista extends BaseController
 
     function verba_mes($verba=null, $mes=null, $dc=null)
     {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $model = new ImportacaoModel();
         $valores = $model->where('tipodefolha', 'Folha Normal')
                     ->where('codigodaverba', $verba)
@@ -123,6 +138,7 @@ class Lista extends BaseController
 
 
     function contracheque($matricula=null, $mes=null) {
+        if (!$this->session->get('usuario')) return redirect()->to('login');
         $model = new ImportacaoModel();
         $valores = $model->where('tipodefolha', 'Folha Normal')
                     ->where('matricula', $matricula)

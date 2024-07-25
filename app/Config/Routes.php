@@ -7,7 +7,8 @@ use CodeIgniter\Router\RouteCollection;
  */
 //$routes->get('/', 'Home::index');
 
-$routes->get('/', 'Importacao::index');
+$routes->get('/', 'LoginController::index');
+$routes->get('/importacao', 'Importacao::index');
 $routes->post('/importacao/processar', 'Importacao::processar');
 $routes->post('/importacao/dat_analitico', 'Importacao::dat_analitico');
 $routes->get('/importacao/excluir_lancamentos/(:segment)', 'Importacao::excluir_lancamentos/$1');
@@ -35,5 +36,7 @@ $routes->get('/desvincular/(:segment)/(:segment)', 'Grupo::desvincular/$1/$2');
 $routes->post('/vincular', 'Grupo::vincular');
 
 $routes->get('/login', 'LoginController::index');
+$routes->post('/login', 'LoginController::autenticar');
 $routes->get('/login/usuario_invalido', 'LoginController::index/51');
 $routes->get('/login/senha_invalida', 'LoginController::index/52');
+$routes->get('/logout', 'LoginController::logout');
