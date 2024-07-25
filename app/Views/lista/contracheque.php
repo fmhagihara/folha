@@ -21,9 +21,9 @@
         </thead>
         <tbody>
             <?php foreach ($valores as $v) :
-                if ($v['dc'] == 'D') $somadebito += $v['valor'];
-                elseif ($v['codigodaverba'] != '2002')$somacredito += $v['valor'];
-                if (!in_array($v['codigodaverba'], array('2010', '2015', '2041', '2500', '3190', '3191'))) : ?>
+                if (!in_array($v['codigodaverba'], array('2010', '2015', '2041', '2500', '3190', '3191'))) :
+                    if ($v['dc'] == 'D') $somadebito += $v['valor'];
+                    elseif ($v['codigodaverba'] != '2002') $somacredito += $v['valor'];?>
                     <tr>
                         <td><?= $v['codigodaverba'] ?></td>
                         <td><?= $v['nomedaverba'] ?></td>
