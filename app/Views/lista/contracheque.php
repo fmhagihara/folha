@@ -5,6 +5,7 @@
 ?>
 
 <p>Funcionário(a): <?= $valores[0]['nome'] ?> - <?= $valores[0]['matricula'] ?></p>
+<p>Cargo/Função: <?=$valores[0]['cargo']?></p>
 <p>Centro de custos: <?= $valores[0]['centrodecusto'] ?></p>
 <p>Competência: <?= substr($valores[0]['competencia'], 5, 2) . '/' . substr($valores[0]['competencia'], 0, 4) ?></p>
 <p>Valores:</p>
