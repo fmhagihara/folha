@@ -2,8 +2,8 @@
 $competencias = array();
 
 for ($i = 0; $i < 6; $i++) {
-    $data = date('Y-m-01', strtotime("-$i months"));
-    $mes_ano = date('m/Y', strtotime("-$i months"));
+    $data = date('Y-m-01', strtotime("first day of -$i months"));
+    $mes_ano = date('m/Y', strtotime("first day of -$i months"));
     $competencias[$data] = $mes_ano;
 }
 
