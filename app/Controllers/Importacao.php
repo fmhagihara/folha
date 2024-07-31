@@ -84,7 +84,7 @@ class Importacao extends BaseController
         if (strtolower($extensao) == 'dat') {
             $conteudo = iconv("ISO-8859-1", "UTF-8", file_get_contents($arquivo));
             $conteudo = str_replace('"', '', $conteudo);
-            $nomearquivo = 'importacao/' . date('YmdHis') . '_importabenner.csv';
+            $nomearquivo = date('YmdHis') . '_importabenner.csv';
             file_put_contents($nomearquivo, $conteudo);
             sleep(2);
             $ponteiro = fopen($nomearquivo, 'r');
@@ -109,8 +109,8 @@ class Importacao extends BaseController
             }
             fclose($ponteiro);
             $tam_lista = count($lista);
+            $reg_inseridos = 0;
             if ($tam_lista) {
-                $reg_inseridos = 0;
                 foreach ($lista as $li) {
                     $inserido = $model->insert($li);
 
