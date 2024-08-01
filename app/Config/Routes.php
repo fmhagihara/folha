@@ -19,9 +19,10 @@ $routes->get('/lista/agrupado', 'Lista::agrupado');
 $routes->get('/lista/agrupado/(:segment)', 'Lista::agrupado/$1');
 $routes->get('/lista', 'Lista::index');
 $routes->get('/lista/centro_custo/(:segment)', 'Lista::centro_custo/$1');
-$routes->get('/lista/grupoCcusto/(:segment)', 'Lista::grupoCcusto/$1');
 $routes->get('/verba_mes/(:segment)/(:segment)/(:segment)', 'Lista::verba_mes/$1/$2/$3');
 $routes->get('contracheque/(:segment)/(:segment)', 'Lista::contracheque/$1/$2');
+
+$routes->get('/lista/empenhos/(:segment)', 'Lista::empenhos/$1');
 
 $routes->get('/lista/encargos/(:segment)', 'Lista::encargos/$1');
 $routes->get('/encargos/cadastrar/(:segment)', 'Lista::cadastrarEncargos/$1');

@@ -126,6 +126,7 @@ if ($sem_grupo) {
             'onclick' => "return confirm('Você tem certeza que deseja excluir todos os lançamentos?');"
         ]) ?>
     </p>
+    <p><?= anchor('lista/empenhos/' . $mes, 'Lista de empenhos', 'target="_blank"') ?></p>
     <p><?= anchor('lista/centro_custo/' . $mes, 'Lista agrupada por centro de custo', 'target="_blank"') ?></p>
     <p><?= anchor('lista/encargos/' . $mes, 'Lista de encargos', 'target="_blank"') ?></p>
     <p><?= anchor('exportacao/gerar_xml/' . $mes, 'Gerar XML para Implanta', 'target="_blank"') ?></p>

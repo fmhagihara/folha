@@ -1,7 +1,7 @@
 <?php
 $somadebitos = $somacreditos = 0;
 $somagrupo = $nomegrupo = $sem_grupo = array();
-$verbadc = array('2010', '2015', '2041', '2500', '3190','3191');
+$verbadc = array('2010', '2015', '2019', '2041', '2500', '3190','3191');
 ?>
 
 <table border="1">

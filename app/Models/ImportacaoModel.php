@@ -47,8 +47,8 @@ class ImportacaoModel extends Model
         else $tipoFolha = '"Folha Normal"';
         $sql = "SELECT codigodaverba, nomedaverba, dc, count(*) AS 'quantidade', sum(valor) AS 'soma',
             centrodecusto, grupo_verba.id AS 'id_grupo', grupo_verba.historico AS 'nome_grupo',
-            grupo_verba.conta_despesa, grupo_verba.conta_liquidacao, grupo_verba.conta_banco,
-            grupo_verba.tipo, grupo_verba.exportar_xml
+            grupo_verba.conta_despesa, grupo_verba.conta_empenho, grupo_verba.conta_liquidacao,
+            grupo_verba.conta_banco, grupo_verba.tipo, grupo_verba.exportar_xml
         FROM importacao_crua
             LEFT JOIN verba ON importacao_crua.codigodaverba = verba.codigo
             LEFT JOIN grupo_verba ON grupo_verba.id = verba.id_grupo

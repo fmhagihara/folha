@@ -3,12 +3,12 @@
 $soma_fgts = $soma_inss = $soma_pis = 0;
 $ind_fgts = $ind_inss = $ind_pis = 999;
 $maior_fgts = $maior_inss = $maior_pis = 0;
-$verbadc = array('2010', '2015', '2041', '2500', '3190','3191');
+
 //var_dump($encargos);
 
 foreach ($agrupado as $ag) {
     // FGTS
-    if ($ag['dc'] == 'D' && in_array($ag['codigodaverba'], ['2010','2015'])) {
+    if ($ag['dc'] == 'D' && in_array($ag['codigodaverba'], ['2010','2015','2019'])) {
         if (!isset($cc_fgts[$ag['centrodecusto']])) $cc_fgts[$ag['centrodecusto']] = 0;
         $cc_fgts[$ag['centrodecusto']] += $ag['soma'];
         $soma_fgts += $ag['soma'];

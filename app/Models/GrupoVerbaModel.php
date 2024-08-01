@@ -14,7 +14,7 @@ class GrupoVerbaModel extends Model
     protected $returnType = 'array';
     protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['tipo', 'historico', 'conta_despesa', 'conta_liquidacao', 'conta_banco'];
+    protected $allowedFields = ['tipo', 'historico', 'conta_despesa', 'conta_empenho', 'conta_liquidacao', 'conta_banco'];
 
 
     protected $dateFormat = 'datetime';

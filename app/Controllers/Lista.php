@@ -38,7 +38,7 @@ class Lista extends BaseController
             $body_data['mes'] = $mes;
             return view('_common/cabecalho')
                 . view('lista/agrupado', $body_data)
-                . view('_common/rodape');;
+                . view('_common/rodape');
         }
         return redirect()->to('lista');
     }
@@ -55,18 +55,19 @@ class Lista extends BaseController
     }
 
 
-
-    function grupoCcusto($mes = '2024-01-01')
+    function empenhos($mes = null)
     {
         if (!$this->session->get('usuario')) return redirect()->to('login');
-        // Dados do BD
-        $model = new ImportacaoModel();
-        $agrupado = $model->grupoCentroCusto($mes);
-
-        $body_data['agrupado'] = $agrupado;
-        return view('importacao/grupo_centro_custo', $body_data);
+        if ($mes) {
+            $model = new ImportacaoModel();
+            $agrupado = $model->agruparCentroCusto($mes);
+            $body_data['agrupado'] = $agrupado;
+            $body_data['mes'] = $mes;
+            return view('_common/cabecalho')
+                .view('lista/empenhos', $body_data)
+                .view('_common/rodape');
+        }
     }
-
 
 
     function encargos($mes = null)
