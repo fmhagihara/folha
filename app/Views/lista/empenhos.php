@@ -27,6 +27,6 @@ endforeach;
         <?php foreach ($subprograma[$ig] as $custo => $valor) : ?>
             <li><?= $custo ?> - <?= number_format($valor, 2, ',', '.') ?></li>
         <?php endforeach; ?>
-        <?=anchor('gerar_empenho/' . $mes . '/' . $ig, 'Gerar Empenho', '_target="blank"')?>
+        <?=anchor('gerar_empenho/' . $mes . '/' . $ig, 'Gerar Solicitação de Reserva Orçamentária', '_target="blank"')?>
     <?php endforeach; ?>
 <?php endif; ?>
