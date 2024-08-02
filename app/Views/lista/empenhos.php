@@ -13,7 +13,6 @@ foreach ($agrupado as $ag) :
         if (isset($subprograma[$idgrupo][$ccusto])) $subprograma[$idgrupo][$ccusto] += $ag['soma'];
         else $subprograma[$idgrupo][$ccusto] = $ag['soma'];
     }
-
 endforeach;
 
 
@@ -28,5 +27,6 @@ endforeach;
         <?php foreach ($subprograma[$ig] as $custo => $valor) : ?>
             <li><?= $custo ?> - <?= number_format($valor, 2, ',', '.') ?></li>
         <?php endforeach; ?>
+        <?=anchor('gerar_empenho/' . $mes . '/' . $ig, 'Gerar Empenho', '_target="blank"')?>
     <?php endforeach; ?>
 <?php endif; ?>
