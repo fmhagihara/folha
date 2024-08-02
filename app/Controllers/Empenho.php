@@ -6,6 +6,7 @@ use CodeIgniter\Controller;
 use App\Models\ImportacaoModel;
 use DateTime;
 use SimpleXMLElement;
+use DOMDocument;
 
 class Empenho extends Controller
 {
@@ -42,6 +43,9 @@ class Empenho extends Controller
       // URL do serviço SOAP
       $url = "https://crea-pr.implanta.net.br/siscont/servico/Integracao/Despesa.svc/soap1";
 
+      //$xmlEnvelope = $this->createXmlEnvelope($empenho, $subprograma, $ultimoDiaDoMes, $mes);
+
+
       // Envelope XML customizado
       $xmlEnvelope =
 '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:imp="http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity">
@@ -52,14 +56,14 @@ class Empenho extends Controller
             <imp:ContaContabil>' . $empenho['conta'] . '</imp:ContaContabil>
             <imp:DistribuicoesCentroCusto>';
             foreach ($subprograma as $key=>$value) :
-               $xmlEnvelope .= '
-               <imp:SolicitacoesReservasOrcamentariasCentroCustoEntity>
+               $xmlEnvelope .=
+               '<imp:SolicitacoesReservasOrcamentariasCentroCustoEntity>
                   <imp:CentroCustoCodigo>' . substr($key, 0, 1) . '.' . substr($key, 1, 3) . '</imp:CentroCustoCodigo>
                   <imp:Valor>' . $value . '</imp:Valor>
                </imp:SolicitacoesReservasOrcamentariasCentroCustoEntity>';
             endforeach;
-            $xmlEnvelope .= '
-            </imp:DistribuicoesCentroCusto>
+            $xmlEnvelope .=
+            '</imp:DistribuicoesCentroCusto>
             <imp:EmpenhoData>' . $ultimoDiaDoMes . '</imp:EmpenhoData>
             <imp:EmpenhoTipo>Ordinario</imp:EmpenhoTipo>
             <imp:EmpenhoValor>' . $empenho['total_empenho'] . '</imp:EmpenhoValor>
@@ -73,7 +77,9 @@ class Empenho extends Controller
       </tem:IncluirSolicitacaoReservaOrcamentaria>
    </soapenv:Body>
 </soapenv:Envelope>';
-//echo '<pre>' . print_r($xmlEnvelope) . '</pre>';
+
+
+
       }
 
 
@@ -122,23 +128,9 @@ class Empenho extends Controller
 
          // Faça algo com a resposta
          if ($httpCode == 200) {
-            $xml = new SimpleXMLElement($response);
-
-            // Registrar os namespaces para acessar elementos qualificados
-            $namespaces = $xml->getNamespaces(true);
-            $xml->registerXPathNamespace('a', $namespaces['a']);
-
-            // Extrair o valor do nó <a:Entity>
-            $entity = $xml->xpath('//a:Entity')[0];
-            $entityValue = (string)$entity;
-            echo 'Solicitação de Reserva Orçamentária gerada com sucesso! ID: ' . $entityValue;
+            echo 'Solicitação de Reserva Orçamentária gerada com sucesso!';
          }
-         /*
-         echo "<pre>";
-         echo "HTTP Code: " . $httpCode . "\n";
-         echo "Response: \n" . htmlspecialchars($response) . "\n";
-         echo "</pre>";
-*/
+
          // Log response
          log_message('debug', 'SOAP Response: ' . $response);
       } catch (\Exception $e) {
@@ -148,4 +140,34 @@ class Empenho extends Controller
       }
 
    }
+
+   function createXmlEnvelope($empenho, $subprograma, $ultimoDiaDoMes, $mes) {
+      $xml = new SimpleXMLElement('<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:imp="http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity"></soapenv:Envelope>');
+
+      $xml->addChild('soapenv:Header');
+      $body = $xml->addChild('soapenv:Body');
+      $incluirSolicitacao = $body->addChild('tem:IncluirSolicitacaoReservaOrcamentaria', '', 'http://tempuri.org/');
+      $solicitacao = $incluirSolicitacao->addChild('tem:solicitacao', '', 'http://tempuri.org/');
+
+      $solicitacao->addChild('imp:ContaContabil', htmlspecialchars($empenho['conta']), 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+
+      $distribuicoesCentroCusto = $solicitacao->addChild('imp:DistribuicoesCentroCusto', '', 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+      foreach ($subprograma as $key => $value) {
+          $entidade = $distribuicoesCentroCusto->addChild('imp:SolicitacoesReservasOrcamentariasCentroCustoEntity', '', 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+          $entidade->addChild('imp:CentroCustoCodigo', htmlspecialchars(substr($key, 0, 1) . '.' . substr($key, 1, 3)), 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+          $entidade->addChild('imp:Valor', htmlspecialchars($value), 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+      }
+
+      $solicitacao->addChild('imp:EmpenhoData', htmlspecialchars($ultimoDiaDoMes), 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+      $solicitacao->addChild('imp:EmpenhoTipo', 'Ordinario', 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+      $solicitacao->addChild('imp:EmpenhoValor', htmlspecialchars($empenho['total_empenho']), 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+      $solicitacao->addChild('imp:FavorecidoCPFCNPJ', '76639384000159', 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+      $solicitacao->addChild('imp:FavorecidoNome', 'Folha Pagamento CREA-PR', 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+      $solicitacao->addChild('imp:Historico', 'Despesa com pagamento de verbas salariais em ' . htmlspecialchars(substr($mes, 5, 2) . '/' . substr($mes, 0, 4)), 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+      $solicitacao->addChild('imp:Justificativa', 'Automático folha', 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+      $solicitacao->addChild('imp:NumeroProcesso', '017.003078/2023-00', 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+      $solicitacao->addChild('imp:SolicitacaoTipo', 'Empenho', 'http://schemas.datacontract.org/2004/07/Implanta.Siscont.Business.Service.Integracao.Entity');
+
+      return $xml;
+  }
 }
