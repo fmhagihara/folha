@@ -59,10 +59,21 @@ if ($dif_inss) {
 }
 else $ind_inss = 999;
 
+$pis_proporcional = false;
 $dif_pis = round($soma_pis - $encargos['pis'], 2);
 if ($dif_pis) {
     $codgrupo = substr($ind_pis, 0, 4);
-    $cc_pis[$ind_pis] = $maior_pis -= $dif_pis;
+    if ($dif_pis < $maior_pis) {
+        $cc_pis[$ind_pis] = $maior_pis -= $dif_pis;
+    }
+    else {
+        $pis_proporcional = true;
+        $perc_pis = $encargos['pis'] / $soma_pis;
+        foreach ($cc_pis as $key=>$value) {
+            $novo_valor = round($value * $perc_pis, 2);
+            $cc_pis[$key] = $novo_valor;
+        }
+    }
 }
 else $ind_pis = 999;
 
@@ -175,7 +186,7 @@ foreach ($cc_pis as $key=>$value) {
         foreach ($cc_pis as $key=>$value) :
         $grupo = substr($key, 0, 4);
         ?>
-        <tr bgcolor="<?=($key == $ind_pis) ? 'yellow' : 'white'?>">
+        <tr bgcolor="<?=($key == $ind_pis || $pis_proporcional) ? 'yellow' : 'white'?>">
             <td><?=substr($key, 0, 1) . '.' . substr($key, 1, 3) . '.' . substr($key, 4, 2)?></td>
             <td style="text-align: right"><?=number_format($value, 2, ',', '.')?></td>
             <td><?=($grupoant != $grupo) ? substr($grupo, 0, 1) . '.' . substr($grupo, 1, 3) : ''?></td>
