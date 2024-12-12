@@ -30,7 +30,7 @@ class Lista extends BaseController
         if (!$this->session->get('usuario')) return redirect()->to('login');
         if ($mes) {
             $model = new ImportacaoModel();
-            $agrupado = $model->agrupar($mes);
+            $agrupado = $model->agrupar($mes, true);
             $gmodel = new GrupoVerbaModel();
             $grupos = $gmodel->lista();
             $body_data['agrupado'] = $agrupado;
