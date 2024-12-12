@@ -43,20 +43,23 @@ class Empenho extends Controller
          // Endpoint
          $url = "https://crea-pr.implanta.net.br/siscont/servico/WebApi/Despesa/IncluirSolicitacaoReservaOrcamentaria";
 
+         $somavalor=  0;
          // Subarray que será adicionada ao array de dados
          foreach ($subprograma as $key => $value) {
             $distribCC[] = [
                'CentroCustoCodigo' => substr($key, 0, 1) . '.' . substr($key, 1, 3),
                'Valor' => (float) $value
             ];
+            $somavalor += $value;
          }
+
 
          // Array de dados
          $data = [
             'ContaContabil' => $empenho['conta'],
             'FavorecidoNome' => 'Folha Pagamento CREA-PR',
             'FavorecidoCPFCNPJ' => '76639384000159',
-            'EmpenhoValor' => round($empenho['total_empenho'],2),
+            'EmpenhoValor' => round($somavalor,2),
             'EmpenhoData' => $ultimoDiaDoMes,
             'EmpenhoTipo' => 'Estimativo',
             'SolicitacaoTipo' => 'Empenho',
@@ -103,11 +106,14 @@ class Empenho extends Controller
 
             if ($response && $httpCode == 200) {
                $resposta = json_decode($response, true);
-               if (isset($resposta['Entity'])) {
+               if (isset($resposta['Entity']) && $resposta['Entity'] != '00000000-0000-0000-0000-000000000000') {
                   echo 'Reserva orçamentária realizada com sucesso! ID ' . $resposta['Entity'];
                }
                else {
+                  echo '<pre>';
                   var_dump($resposta);
+                  var_dump($data);
+                  echo '</pre>';
                }
             }
 

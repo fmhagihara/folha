@@ -125,7 +125,7 @@ class Lista extends BaseController
     {
         if (!$this->session->get('usuario')) return redirect()->to('login');
         $model = new ImportacaoModel();
-        $valores = $model->where('tipodefolha', 'Folha Normal')
+        $valores = $model->whereIn('tipodefolha', ['Folha Normal', 'Décimo terceiro salário integr'])
                     ->where('codigodaverba', $verba)
                     ->where('competencia', $mes)
                     ->where('dc', $dc)
@@ -141,7 +141,7 @@ class Lista extends BaseController
     function contracheque($matricula=null, $mes=null) {
         if (!$this->session->get('usuario')) return redirect()->to('login');
         $model = new ImportacaoModel();
-        $valores = $model->where('tipodefolha', 'Folha Normal')
+        $valores = $model->whereIn('tipodefolha', ['Folha Normal', 'Décimo terceiro salário integr'])
                     ->where('matricula', $matricula)
                     ->where('competencia', $mes)
                     ->orderBy('dc', 'DESC')

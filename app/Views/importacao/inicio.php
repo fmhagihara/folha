@@ -1,6 +1,10 @@
 <?php
 $competencias = array();
 
+if (date('m') >= 11) {
+    $decimo_terceiro = date('Y-12-15');
+    $competencias[$decimo_terceiro] = '13/' . date('Y');
+}
 for ($i = 0; $i < 6; $i++) {
     $data = date('Y-m-01', strtotime("-$i months"));
     $mes_ano = date('m/Y', strtotime("-$i months"));
