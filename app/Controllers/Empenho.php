@@ -49,7 +49,7 @@ class Empenho extends Controller
          foreach ($subprograma as $key => $value) {
             $distribCC[] = [
                'CentroCustoCodigo' => substr($key, 0, 1) . '.' . substr($key, 1, 3),
-               'Valor' => (float) $value
+               'Valor' => (float) round($value, 2)
             ];
             $somavalor += $value;
          }
