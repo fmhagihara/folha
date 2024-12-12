@@ -53,7 +53,7 @@ class Empenho extends Controller
             ];
             $somavalor += $value;
          }
-
+         ksort($distribCC);
 
          // Array de dados
          $data = [
