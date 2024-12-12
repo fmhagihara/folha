@@ -62,7 +62,7 @@ class ImportacaoModel extends Model
 
     function agrupar($mes = '2023-09-01', $todasFolhas=false)
     {
-        if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s", "Adiantamento décimo terceiro salário". "Décimo terceiro salário integral"';
+        if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s", "Adiantamento décimo terceiro salário", "Décimo terceiro salário integral"';
         else if (substr($mes, 8, 2) == "01") $tipoFolha = '"Folha Normal"';
         else $tipoFolha = '"Décimo terceiro salário integral"';
         $sql = "SELECT competencia, codigodaverba, nomedaverba, dc, count(*) AS 'quantidade', sum(valor) AS 'soma',
