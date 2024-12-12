@@ -65,7 +65,7 @@ class ImportacaoModel extends Model
         if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s", "Adiantamento décimo terceiro salário", "Décimo terceiro salário integral"';
         else if (substr($mes, 8, 2) == "01") $tipoFolha = '"Folha Normal"';
         else $tipoFolha = '"Décimo terceiro salário integral"';
-        $sql = "SELECT competencia, codigodaverba, nomedaverba, dc, count(*) AS 'quantidade', sum(valor) AS 'soma',
+      echo  $sql = "SELECT competencia, codigodaverba, nomedaverba, dc, count(*) AS 'quantidade', sum(valor) AS 'soma',
             grupo_verba.historico AS 'nome_grupo', grupo_verba.tipo AS 'tipo_grupo', grupo_verba.exportar_xml,
             verba.id AS id_verba_grupo,
             grupo_verba.id AS id_grupo
