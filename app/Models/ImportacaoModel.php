@@ -52,6 +52,7 @@ class ImportacaoModel extends Model
         WHERE importacao_crua.deleted_at IS null
             AND competencia = '$mes'
             AND importacao_crua.tipodefolha IN ($tipoFolha)
+            AND verba.deleted_at IS NULL
         GROUP BY dc, codigodaverba, centrodecusto
         ORDER BY dc DESC, tipo, CAST(codigodaverba AS SIGNED), centrodecusto";
 
@@ -74,7 +75,7 @@ class ImportacaoModel extends Model
         WHERE importacao_crua.deleted_at IS NULL
             AND competencia = '$mes'
             AND importacao_crua.tipodefolha IN ($tipoFolha)
-
+            AND verba.deleted_at IS NULL
         GROUP BY dc, codigodaverba
         ORDER BY dc DESC, CAST(codigodaverba AS SIGNED)";
 
@@ -97,6 +98,7 @@ class ImportacaoModel extends Model
             AND exportar_xml = 1
             AND grupo_verba.tipo != 'C - Desconto'
             AND importacao_crua.tipodefolha = 'Folha Normal'
+            AND verba.deleted_at IS NULL
         GROUP BY id_grupo, centrodecusto
         ORDER BY grupo_verba.tipo, id_grupo, centrodecusto";
 
