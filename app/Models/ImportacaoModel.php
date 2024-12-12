@@ -38,8 +38,10 @@ class ImportacaoModel extends Model
 
     function agruparCentroCusto($mes = '2023-09-01', $todasFolhas=false)
     {
-        if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s", "Décimo terceiro salário integr"';
-        else $tipoFolha = '"Folha Normal", "Décimo terceiro salário integr"';
+        if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s", ""Adiantamento décimo terceiro salário", "Décimo terceiro salário integral"';
+        else if (substr($mes, 8, 2) == "01") $tipoFolha = '"Folha Normal"';
+        else $tipoFolha = '"Décimo terceiro salário integral"';
+
         $sql = "SELECT codigodaverba, nomedaverba, dc, count(*) AS 'quantidade', sum(valor) AS 'soma',
             centrodecusto, grupo_verba.id AS 'id_grupo', grupo_verba.historico AS 'nome_grupo',
             grupo_verba.conta_despesa, grupo_verba.conta_empenho, grupo_verba.conta_liquidacao,
@@ -59,8 +61,9 @@ class ImportacaoModel extends Model
 
     function agrupar($mes = '2023-09-01', $todasFolhas=false)
     {
-        if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s", "Décimo terceiro salário integr"';
-        else $tipoFolha = '"Folha Normal", "Décimo terceiro salário integr"';
+        if ($todasFolhas) $tipoFolha = '"Folha Normal", "Adiantamento décimo terceiro s", "Adiantamento décimo terceiro salário". "Décimo terceiro salário integral"';
+        else if (substr($mes, 8, 2) == "01") $tipoFolha = '"Folha Normal"';
+        else $tipoFolha = '"Décimo terceiro salário integral"';
         $sql = "SELECT competencia, codigodaverba, nomedaverba, dc, count(*) AS 'quantidade', sum(valor) AS 'soma',
             grupo_verba.historico AS 'nome_grupo', grupo_verba.tipo AS 'tipo_grupo', grupo_verba.exportar_xml,
             verba.id AS id_verba_grupo,

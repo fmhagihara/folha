@@ -27,6 +27,9 @@ class Exportacao extends BaseController
             // Variáveis para o Header
             $mesano = substr($mes, 5, 2) . substr($mes, 0, 4);
             $datacredito = date('tmY', strtotime($mes));
+
+            // Quando é 13º salário, joga para dia 05 do mês
+            if (substr($mes, 8, 2) == '15') $datacredito = '05'.date('mY', strtotime($mes));
             $datahorageracao = date('dmYHi');
 
             // Header do XML
