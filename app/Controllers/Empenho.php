@@ -28,6 +28,7 @@ class Empenho extends Controller
             $ccusto = substr($ag['centrodecusto'], 0, 4);
             $empenho['conta'] = $ag['conta_empenho'];
             $empenho['nomeconta'] = $ag['nome_grupo'];
+            $ag['soma'] = round($ag['soma'], 2);
             if (isset($empenho['total_empenho'])) $empenho['total_empenho'] += $ag['soma'];
             else $empenho['total_empenho'] = $ag['soma'];
             if (isset($subprograma[$ccusto])) $subprograma[$ccusto] += $ag['soma'];
